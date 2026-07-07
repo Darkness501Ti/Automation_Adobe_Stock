@@ -1,7 +1,7 @@
 # LTX Seamless-Loop Video Mode — Design Spec (V1)
 
 Date: 2026-07-07
-Status: Approved by user (V1)
+Status: Approved by user (V1); seam gate amended to motion-normalized after feasibility (V1.1)
 Parent spec: docs/superpowers/specs/2026-07-06-ltx-video-pipeline-design.md
 
 ## Goal
@@ -45,12 +45,20 @@ RTX 5070 Ti. VRAM expected ≈ same peak as current (~15.7 GB) since passes run 
 
 ## Seam QA gate (protects the honest keyword)
 
+**Amended after feasibility (2026-07-07, V1.1): the gate is motion-normalized.** An
+absolute SSIM threshold misjudges high-motion clips — even a perfect loop shows one
+motion-step of difference at the wrap. Feasibility data: a vivid clip (motion 2× the
+accepted batch-1 baseline) wrapped *smoother than its own playback* (wrap SSIM 0.9149 vs
+consecutive-frame SSIM 0.8887) yet failed the original 0.95 absolute threshold, while a
+near-still clip passed it. The playback-relative rule matches ground truth.
+
 After encode:
 
-1. Extract first and last frames (ffmpeg).
-2. Compute SSIM between them (ffmpeg ssim filter). Threshold: tuned at feasibility
-   (start ≈ 0.95).
-3. **Pass** → clip keeps `seamless loop, looping` keywords in the CSV.
+1. Extract frame 0, the last frame, and the second-to-last frame (ffmpeg).
+2. Compute **wrap SSIM** (last → first) and **baseline SSIM** (second-to-last → last,
+   the clip's own playback smoothness).
+3. **Pass** (`wrap >= baseline - SEAM_TOLERANCE`, tolerance 0.01) → clip keeps
+   `seamless loop, looping` keywords in the CSV.
 4. **Fail** → clip is **still uploadable as a normal clip**: base keywords kept, loop terms
    stripped automatically, console flags it for eyeballing. No quarantine unless the
    existing ffprobe spec gate also fails.

@@ -9,7 +9,7 @@ import shutil
 import subprocess
 from datetime import datetime
 
-from loop_utils import add_loop_guides, parse_ssim, strip_loop_keywords
+from loop_utils import add_loop_guides, is_seamless, parse_ssim, strip_loop_keywords
 
 # =============================================================
 # LTX-2.3 VIDEO CONFIG  (tune here, no need to touch the code below)
@@ -59,7 +59,10 @@ STAGE2_SEED   = 42                           # fixed refine noise (template defa
 ANCHOR_FRAMES   = 33     # pass-1 length, LTX rule 8n+1 (~1/7 of full render)
 GUIDE_STRENGTH  = 1.0    # anchor conditioning strength at both endpoints
 LOOP_FRAMES     = FPS * DURATION_S   # 240 -> exact 10.000s after trim
-SSIM_THRESHOLD  = 0.95   # seam gate: below this, loop keywords are stripped
+# Seam gate is motion-normalized: the wrap (last->first frame SSIM) must be
+# no rougher than the clip's own consecutive-frame SSIM, minus this tolerance.
+# (An absolute threshold misjudges high-motion clips - feasibility 2026-07-07.)
+SEAM_TOLERANCE  = 0.01
 
 # ffmpeg encode (Adobe: H.264, 5-60s, >=1920x1080, <=3.9GB)
 FF_CRF        = 17
@@ -256,19 +259,28 @@ def extract_frame(video_path, png_path, frame_idx):
         raise RuntimeError(f"frame extract failed: {res.stderr[-300:]}")
 
 
-# 6f. Seam gate: SSIM between first frame and last frame of the final clip.
-def seam_ssim(video_path, last_idx):
+# 6f. Seam metrics: SSIM of the wrap (last->first frame) and of the clip's own
+#     consecutive-frame step (second-to-last -> last), used as the baseline.
+def _frames_ssim(png_a, png_b):
+    cmd = [FFMPEG, "-i", png_a, "-i", png_b,
+           "-filter_complex", "ssim", "-f", "null", "-"]
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    return parse_ssim(res.stderr)
+
+
+def seam_metrics(video_path, last_idx):
     first_png = video_path + ".first.png"
     last_png = video_path + ".last.png"
+    prev_png = video_path + ".prev.png"
     try:
         extract_frame(video_path, first_png, 0)
         extract_frame(video_path, last_png, last_idx)
-        cmd = [FFMPEG, "-i", first_png, "-i", last_png,
-               "-filter_complex", "ssim", "-f", "null", "-"]
-        res = subprocess.run(cmd, capture_output=True, text=True)
-        return parse_ssim(res.stderr)
+        extract_frame(video_path, prev_png, last_idx - 1)
+        seam = _frames_ssim(last_png, first_png)
+        baseline = _frames_ssim(prev_png, last_png)
+        return seam, baseline
     finally:
-        for p in (first_png, last_png):
+        for p in (first_png, last_png, prev_png):
             if os.path.exists(p):
                 os.remove(p)
 
@@ -386,17 +398,20 @@ def main():
 
         keywords = item["keywords"]
         if is_loop:
-            # Seam gate: keep loop keywords only if the wrap is actually clean.
+            # Seam gate: keep loop keywords only if the wrap is as smooth as
+            # the clip's own playback (motion-normalized, see CONFIG).
             try:
-                ssim = seam_ssim(final_path, LOOP_FRAMES - 1)
+                seam, baseline = seam_metrics(final_path, LOOP_FRAMES - 1)
             except (RuntimeError, ValueError) as e:
-                ssim = 0.0
+                seam, baseline = 0.0, 1.0
                 print(f" -> seam gate could not run ({e}), treating as FAIL")
-            if ssim >= SSIM_THRESHOLD:
-                print(f" -> seam gate PASS (SSIM {ssim:.4f}) - loop keywords kept")
+            if is_seamless(seam, baseline, SEAM_TOLERANCE):
+                print(f" -> seam gate PASS (wrap SSIM {seam:.4f} vs playback "
+                      f"{baseline:.4f}) - loop keywords kept")
             else:
                 keywords = strip_loop_keywords(keywords)
-                print(f" -> seam gate FAIL (SSIM {ssim:.4f} < {SSIM_THRESHOLD}) "
+                print(f" -> seam gate FAIL (wrap SSIM {seam:.4f} rougher than "
+                      f"playback {baseline:.4f} - {SEAM_TOLERANCE}) "
                       f"- loop keywords stripped, review clip manually")
 
         print(f" -> Saved: {final_filename} ({detail}, gen {gen_min:.1f} min)")

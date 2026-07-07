@@ -24,6 +24,18 @@ def parse_ssim(ffmpeg_stderr):
     return float(m.group(1))
 
 
+def is_seamless(seam_ssim, baseline_ssim, tolerance=0.01):
+    """Motion-normalized seam verdict.
+
+    A loop is seamless when the wrap step (last frame -> first frame) is no
+    rougher than the clip's own consecutive-frame step. An absolute SSIM
+    threshold misjudges high-motion clips: even a perfect loop shows one
+    motion-step of difference at the wrap (feasibility 2026-07-07: a vivid
+    clip wrapped SMOOTHER than its own playback, 0.9149 vs 0.8887).
+    """
+    return seam_ssim >= baseline_ssim - tolerance
+
+
 def add_loop_guides(wf, anchor_name, frames, strength=1.0):
     """Insert first=last frame anchor conditioning into a T2V workflow (loop pass 2).
 

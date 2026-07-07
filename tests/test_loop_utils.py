@@ -4,7 +4,7 @@ import unittest
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "script"))
 
-from loop_utils import add_loop_guides, parse_ssim, strip_loop_keywords
+from loop_utils import add_loop_guides, is_seamless, parse_ssim, strip_loop_keywords
 
 
 class TestStripLoopKeywords(unittest.TestCase):
@@ -32,6 +32,27 @@ class TestParseSsim(unittest.TestCase):
     def test_raises_without_value(self):
         with self.assertRaises(ValueError):
             parse_ssim("frame=  240 fps=0.0 q=-1.0")
+
+
+class TestIsSeamless(unittest.TestCase):
+    """Seam is judged against the clip's own playback smoothness, not an
+    absolute number: a wrap no rougher than a normal frame step is seamless.
+    Values from feasibility runs 2026-07-07."""
+
+    def test_high_motion_smooth_wrap_passes(self):
+        # run 3: seam 0.9149 vs consecutive 0.8887 -> wrap smoother than playback
+        self.assertTrue(is_seamless(0.9149, 0.8887))
+
+    def test_wrap_rougher_than_playback_fails(self):
+        # run 2: seam 0.9355 vs consecutive 0.9836 -> visible drift at the wrap
+        self.assertFalse(is_seamless(0.9355, 0.9836))
+
+    def test_tolerance_allows_marginal_wrap(self):
+        self.assertTrue(is_seamless(0.975, 0.980))          # within default 0.01
+        self.assertFalse(is_seamless(0.965, 0.980))         # beyond it
+
+    def test_custom_tolerance(self):
+        self.assertTrue(is_seamless(0.90, 0.98, tolerance=0.09))
 
 
 class TestAddLoopGuides(unittest.TestCase):
