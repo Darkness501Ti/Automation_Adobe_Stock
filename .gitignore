@@ -1,0 +1,8 @@
+# Generated renders (JPGs/MP4s + CSVs) — products, not source; ~GBs
+output/
+
+# Python bytecode
+__pycache__/
+
+# Windows shortcuts
+*.lnk

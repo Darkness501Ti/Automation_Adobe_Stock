@@ -1,0 +1,386 @@
+[
+  {
+    "name": "tech_gradient_blue",
+    "title": "Deep Blue Tech Gradient Background with Soft Glow and Copy Space",
+    "keywords": "tech background, abstract background, blue, gradient, glowing, copy space, technology, dark background, futuristic, minimal, digital, corporate, banner background, design element, no people, modern, presentation background",
+    "category": 8,
+    "positive": "A premium abstract technology background, a deep blue and teal gradient with a soft luminous glow on the right side, smooth structured depth and faint flowing light streaks, clean minimalist surface, large empty copy space on the left for text overlay, sharp focus, high resolution commercial render. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, blurry, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands"
+  },
+  {
+    "name": "circuit_macro_dark",
+    "title": "Macro Circuit Board Background with Glowing Blue Traces and Copy Space",
+    "keywords": "circuit board, macro, technology background, electronics, glowing, blue, abstract background, microchip, hardware, copy space, computing, digital, futuristic, detail, dark background, no people, corporate, design element",
+    "category": 8,
+    "positive": "Extreme macro of a futuristic circuit board, smooth glowing blue energy traces routing across a dark polished surface, shallow depth of field, crisp fine detail on the electronics, clean composition with generous dark copy space on one side, premium photorealistic commercial render, sharp focus. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, blurry, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands"
+  },
+  {
+    "name": "data_lines_flow_teal",
+    "title": "Flowing Data Visualization Line Background in Teal on Dark, Copy Space",
+    "keywords": "data visualization, abstract background, lines, flowing, teal, technology background, analytics, glowing, copy space, big data, network, dark background, futuristic, no people, corporate, design element",
+    "category": 8,
+    "positive": "An abstract data visualization background, smooth glowing teal lines and gentle wave curves flowing across a deep dark surface, organized layered depth, elegant analytics aesthetic, large empty copy space, premium 3D commercial render, sharp focus, fine detail. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, blurry, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands"
+  },
+  {
+    "name": "network_nodes_violet",
+    "title": "Glowing Violet Network Node Sphere on Dark Background with Copy Space",
+    "keywords": "network, nodes, connection, abstract background, violet, glowing, technology background, connectivity, copy space, digital, dark background, futuristic, mesh, no people, corporate, design element",
+    "category": 8,
+    "positive": "An abstract network background, softly glowing nodes connected by thin luminous lines forming a loose sphere floating in a deep dark void, violet and magenta highlights, calm depth of field, generous dark copy space, premium 3D commercial render, sharp focus. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, blurry, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands, real stars, planets"
+  },
+  {
+    "name": "glowing_particles_cyan",
+    "title": "Drifting Glowing Cyan Particles on Dark Technology Background, Copy Space",
+    "keywords": "particles, glowing, abstract background, cyan, technology background, bokeh, digital, copy space, dark background, futuristic, light, no people, corporate, design element, depth, minimal",
+    "category": 8,
+    "positive": "An abstract technology background of softly drifting glowing cyan particles and gentle light bokeh scattered across a deep dark gradient, calm floating motion, smooth depth, large empty copy space, premium commercial render, sharp focus on the foreground sparks. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands"
+  },
+  {
+    "name": "ai_filaments_sphere",
+    "title": "Glowing Light Filament Sphere on Dark Background, Abstract Tech",
+    "keywords": "technology, abstract, glowing, sphere, filaments, network, blue, digital, futuristic, science, copy space, dark background, innovation, energy, no people, corporate, design element",
+    "category": 19,
+    "positive": "A glowing sphere woven from thousands of fine luminous light filaments floating in dark space, soft blue and white glow radiating from the core, smooth organic curves, elegant high-tech look, ample dark copy space beside it, premium 3D commercial render, sharp focus, fine detail. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, blurry, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands, brain, anatomical"
+  },
+  {
+    "name": "glass_cubes_clean",
+    "title": "Translucent Glass Cubes Floating in Clean Bright Space, Copy Space",
+    "keywords": "glass cubes, abstract, geometric, translucent, clean, bright, technology, blue, copy space, minimal, modern, futuristic, no people, corporate, design element, 3d render",
+    "category": 19,
+    "positive": "Several translucent glass cubes floating in an orderly arrangement within a clean bright minimalist space, subtle blue glow and soft reflections, smooth glass material, elegant geometric order, generous empty copy space, premium 3D commercial render, sharp focus. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, blurry, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands"
+  },
+  {
+    "name": "billboard_street_dusk",
+    "title": "Blank Outdoor Billboard on City Street at Dusk with Bokeh Lights",
+    "keywords": "billboard, blank, mockup, empty, advertising, city, street, dusk, outdoor, copy space, template, banner, urban, marketing, signage, display, advertisement, promotion",
+    "category": 8,
+    "positive": "A large blank empty outdoor billboard mounted above a city street at dusk, soft warm bokeh of traffic and building lights behind it, clean realistic perspective, the billboard surface completely empty and pure for a designer to place their own advertisement, sharp focus on the blank panel, premium commercial mockup photo. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, writing, typography, advertisement graphics, placeholder image, blurry billboard, noisy, low resolution, jpeg artifacts, deformed, warped perspective, distorted, sharp faces, malformed hands"
+  },
+  {
+    "name": "billboard_subway",
+    "title": "Empty Subway Platform Billboard Mockup with Blank Advertising Panel",
+    "keywords": "billboard, subway, blank, mockup, empty, advertising, metro, underground, transit, copy space, template, banner, urban, marketing, signage, station, display, advertisement",
+    "category": 8,
+    "positive": "A blank empty advertising billboard panel mounted on a clean modern subway station platform wall, soft ambient lighting, realistic tiled architecture and gentle depth down the platform, the panel surface completely empty and pure for placing artwork, sharp focus on the blank billboard, premium commercial mockup photo. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, writing, typography, advertisement graphics, placeholder image, noisy, low resolution, jpeg artifacts, deformed, warped perspective, distorted, sharp faces, malformed hands"
+  },
+  {
+    "name": "poster_frame_wall",
+    "title": "Blank White Poster Frame on Minimal Interior Wall, Copy Space Mockup",
+    "keywords": "poster frame, blank, mockup, empty, frame, wall, interior, copy space, template, picture frame, minimal, display, art print, white, marketing, presentation, decor",
+    "category": 8,
+    "positive": "A blank white poster frame hanging on a clean minimal neutral interior wall, soft natural daylight casting a gentle shadow, realistic frontal perspective, the frame interior completely empty and pure for placing a design, sharp focus, premium commercial mockup photo with surrounding wall as copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, writing, typography, picture inside frame, placeholder image, blurry, noisy, low resolution, jpeg artifacts, deformed, warped perspective, distorted, people, hands"
+  },
+  {
+    "name": "phone_screen_blank",
+    "title": "Blank Smartphone Screen on Neutral Desk, Top View Mockup, Copy Space",
+    "keywords": "smartphone, blank screen, mockup, empty, phone, device, top view, desk, copy space, template, app, display, technology, minimal, marketing, presentation, screen",
+    "category": 8,
+    "positive": "A modern generic unbranded smartphone lying on a clean neutral desk, viewed from directly above, its screen completely blank and pure white for placing an app design, soft even studio light, minimal styling with empty surrounding copy space, sharp focus on the blank screen, premium commercial mockup photo. no text, no watermark, no logos, no branding, generic unbranded device",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, apple logo, trademark, app icons, screen graphics, chinese characters, writing, typography, placeholder image, blurry, noisy, low resolution, jpeg artifacts, deformed, distorted, people, hands"
+  },
+  {
+    "name": "laptop_screen_blank",
+    "title": "Blank Laptop Screen on Clean Desk, Workspace Mockup with Copy Space",
+    "keywords": "laptop, blank screen, mockup, empty, computer, device, desk, copy space, template, display, technology, workspace, minimal, marketing, presentation, screen, business",
+    "category": 8,
+    "positive": "A modern generic unbranded laptop open on a clean minimal desk, its screen completely blank and pure for placing a website or app design, soft daylight, simple uncluttered styling with empty copy space around it, sharp focus on the blank screen, premium commercial mockup photo. no text, no watermark, no logos, no branding, generic unbranded device, blank lid",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, apple logo, trademark, app icons, screen graphics, chinese characters, writing, typography, placeholder image, blurry, noisy, low resolution, jpeg artifacts, deformed, distorted, people, hands"
+  },
+  {
+    "name": "digital_signage_mall",
+    "title": "Blank Digital Signage Display in Modern Mall Interior, Mockup",
+    "keywords": "digital signage, blank, mockup, empty, display, screen, mall, interior, advertising, copy space, template, kiosk, marketing, retail, banner, promotion, modern",
+    "category": 8,
+    "positive": "A blank empty digital signage display screen standing in a clean modern shopping mall interior, soft bokeh of the bright architecture behind, realistic frontal perspective, the screen surface completely empty and pure for placing an advertisement, sharp focus on the blank display, premium commercial mockup photo. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, screen graphics, chinese characters, writing, typography, placeholder image, blurry display, noisy, low resolution, jpeg artifacts, deformed, warped perspective, distorted, sharp faces, malformed hands"
+  },
+  {
+    "name": "aframe_sign_cafe",
+    "title": "Blank A-Frame Sidewalk Sign by a Cafe, Mockup with Copy Space",
+    "keywords": "a-frame sign, sidewalk sign, blank, mockup, empty, signboard, cafe, street, copy space, template, advertising, small business, display, signage, marketing",
+    "category": 8,
+    "positive": "A blank empty A-frame sidewalk sign standing on a pavement beside a softly blurred cozy cafe storefront, warm daylight, realistic perspective, the sign board completely empty and pure for placing a message, sharp focus on the blank board, premium commercial mockup photo. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, writing, typography, chalk drawing, placeholder image, noisy, low resolution, jpeg artifacts, deformed, warped perspective, distorted, sharp faces, malformed hands"
+  },
+  {
+    "name": "bokeh_office_openplan",
+    "title": "Defocused Modern Open-Plan Office with Blurred People, Bokeh Background",
+    "keywords": "office, blurred, defocused, bokeh, business, people, background, corporate, workplace, open plan, copy space, professional, modern, team, no face, out of focus",
+    "category": 3,
+    "positive": "A modern open-plan office interior softly out of focus, blurred defocused people working at desks, warm bokeh light, strong shallow depth of field so the people are unrecognizable with no visible faces, premium commercial photography, professional corporate mood, gentle copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "lobby_blurred_walking",
+    "title": "Blurred Business People Walking in a Bright Modern Office Lobby",
+    "keywords": "office lobby, business people, blurred, defocused, walking, bokeh, corporate, background, professional, modern, motion, copy space, workplace, no face, out of focus",
+    "category": 3,
+    "positive": "A bright modern corporate office lobby with clean architecture in sharp focus in the foreground, blurred defocused business people walking through the background with gentle motion, soft bokeh daylight, the people unrecognizable with no visible faces, premium commercial photography, professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "meeting_silhouettes_glass",
+    "title": "Blurred People in a Meeting Behind a Glass Wall, Defocused Office",
+    "keywords": "meeting, business people, blurred, defocused, glass wall, bokeh, corporate, background, teamwork, professional, office, copy space, no face, out of focus, collaboration",
+    "category": 3,
+    "positive": "Soft blurred defocused people gathered for a meeting seen through a frosted glass office wall, gentle warm bokeh, shallow depth of field, the people unrecognizable with no visible faces, clean modern corporate interior, premium commercial photography, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "city_window_office_bokeh",
+    "title": "Defocused City Office Window with Bokeh and Copy Space Background",
+    "keywords": "office window, city, bokeh, blurred, defocused, business, background, corporate, urban, copy space, professional, modern, skyline, out of focus, workplace",
+    "category": 3,
+    "positive": "A defocused view through a modern office toward a city skyline, soft bokeh of windows and daylight, a calm professional corporate atmosphere, large empty copy space, smooth shallow depth of field, premium commercial photography. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "coworking_blurred_team",
+    "title": "Blurred Team Collaborating in a Bright Coworking Space, Bokeh",
+    "keywords": "coworking, team, business people, blurred, defocused, bokeh, collaboration, background, startup, professional, modern, copy space, workplace, no face, out of focus",
+    "category": 3,
+    "positive": "A bright modern coworking space with softly blurred defocused people collaborating, warm bokeh light, strong shallow depth of field, the people unrecognizable with no visible faces, premium business lifestyle photography, creative professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "desk_foreground_blurred_office",
+    "title": "Sharp Office Desk Foreground with Blurred People in the Background",
+    "keywords": "office, desk, blurred people, defocused, bokeh, business, background, corporate, workplace, copy space, professional, modern, foreground, no face, out of focus",
+    "category": 3,
+    "positive": "A clean office desk with a simple unbranded laptop and coffee cup in sharp foreground focus, behind it softly blurred defocused colleagues working, warm bokeh light, strong shallow depth of field so the background people are unrecognizable with no visible faces, premium commercial photography, copy space. no text, no watermark, no logos, no branding, generic unbranded device",
+    "negative": "text, letters, watermark, logo, brand logo, apple logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective"
+  },
+  {
+    "name": "reception_blurred",
+    "title": "Blurred People at a Modern Office Reception, Defocused Corporate Scene",
+    "keywords": "reception, office, business people, blurred, defocused, bokeh, corporate, background, lobby, professional, modern, copy space, workplace, no face, out of focus",
+    "category": 3,
+    "positive": "A modern office reception area with clean architecture in soft focus, blurred defocused people standing and walking near the desk, gentle bokeh daylight, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "single_laptop_plain",
+    "title": "Single Laptop on a Plain Pastel Desk with Generous Copy Space",
+    "keywords": "laptop, minimal, desk, workspace, business, copy space, computer, technology, clean, simple, pastel, professional, no people, modern, negative space, home office",
+    "category": 3,
+    "positive": "A single modern generic unbranded laptop sitting on a plain pastel desk surface, soft even studio light, very minimal clean composition with a large area of empty copy space, sharp focus, premium commercial product-style photo. no text, no watermark, no logos, no branding, generic unbranded device, blank lid",
+    "negative": "text, letters, watermark, logo, brand logo, apple logo, trademark, signature, blurry, noisy, low resolution, jpeg artifacts, clutter, extra objects, duplicate, deformed, distorted, people, hands"
+  },
+  {
+    "name": "phone_on_color",
+    "title": "Single Smartphone on a Bold Color Background, Minimal Flat Lay",
+    "keywords": "smartphone, minimal, color background, phone, device, technology, copy space, flat lay, bold, clean, simple, vibrant, no people, modern, negative space, mobile",
+    "category": 8,
+    "positive": "A single modern generic unbranded smartphone lying centered on a bold solid color background, soft even studio light and a subtle shadow, very minimal clean composition with copy space, sharp focus, premium commercial product-style photo. no text, no watermark, no logos, no branding, generic unbranded device, blank screen",
+    "negative": "text, letters, watermark, logo, brand logo, apple logo, trademark, app icons, screen graphics, signature, blurry, noisy, low resolution, jpeg artifacts, clutter, extra objects, duplicate, deformed, distorted, people, hands"
+  },
+  {
+    "name": "coffee_notebook_minimal",
+    "title": "Coffee Cup and Closed Notebook on Neutral Desk, Minimal Workspace",
+    "keywords": "coffee, notebook, minimal, desk, workspace, business, copy space, neutral, clean, simple, professional, no people, morning, negative space, lifestyle, calm",
+    "category": 3,
+    "positive": "A simple ceramic coffee cup beside a plain closed notebook on a clean neutral desk, soft warm daylight, very minimal uncluttered composition with generous empty copy space, sharp focus, premium commercial lifestyle photo. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, blurry, noisy, low resolution, jpeg artifacts, clutter, extra objects, duplicate, deformed, distorted, people, hands"
+  },
+  {
+    "name": "plant_neutral_minimal",
+    "title": "Single Potted Plant Against a Neutral Wall with Copy Space",
+    "keywords": "plant, potted plant, minimal, neutral, copy space, interior, green, clean, simple, decor, no people, modern, negative space, calm, background, botanical",
+    "category": 8,
+    "positive": "A single small potted green plant on a plain surface against a soft neutral wall, gentle natural daylight casting a soft shadow, very minimal clean composition with a large area of empty copy space, sharp focus, fine detail on the leaves, premium commercial photo. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, blurry, noisy, low resolution, jpeg artifacts, clutter, extra objects, duplicate, deformed, distorted, people, hands"
+  },
+  {
+    "name": "green_energy_gradient",
+    "title": "Clean Green and Teal Sustainability Gradient Background, Copy Space",
+    "keywords": "sustainability, green energy, gradient, abstract background, teal, eco, environment, copy space, clean, renewable, ESG, corporate, no people, design element, modern, fresh",
+    "category": 19,
+    "positive": "A clean abstract sustainability background, a smooth fresh green and teal gradient with a soft glow and gentle flowing light, calm eco-friendly mood, large empty copy space, premium commercial render, sharp focus. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, writing, typography, ui, label, gibberish, blurry, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands"
+  },
+  {
+    "name": "soft_fog_negative_space",
+    "title": "Soft Fog and Mist Gradient Background with Calm Negative Space",
+    "keywords": "fog, mist, background, soft, gradient, calm, minimal, copy space, atmospheric, neutral, abstract, negative space, no people, serene, design element, smooth",
+    "category": 8,
+    "positive": "A soft atmospheric background of gentle fog and mist forming a smooth pale gradient, calm and serene, abundant empty negative space, subtle depth, premium commercial photo, clean feel with a soft haze. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, writing, typography, ui, label, gibberish, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands"
+  },
+  {
+    "name": "abstract_water_surface",
+    "title": "Abstract Calm Water Surface Texture Background with Copy Space",
+    "keywords": "water, surface, abstract background, texture, calm, ripples, blue, copy space, natural, minimal, no people, serene, design element, reflection, smooth, fresh",
+    "category": 8,
+    "positive": "An abstract calm water surface seen from above, gentle soft ripples and subtle reflected light forming a smooth tranquil texture, cool fresh blue tones, large area of even copy space, premium commercial photo, sharp fine detail on the ripples. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, writing, typography, ui, label, gibberish, blurry, noisy, low resolution, jpeg artifacts, banding, deformed, people, hands"
+  },
+  {
+    "name": "escalator_business_center",
+    "title": "Blurred People on Glass Atrium Escalators in a Business Center",
+    "keywords": "escalator, business center, blurred, defocused, people, bokeh, atrium, corporate, background, professional, modern, glass, copy space, no face, out of focus, commute",
+    "category": 3,
+    "positive": "Blurred defocused people riding escalators inside a bright glass business-center atrium, cool daylight and soft bokeh reflections, strong shallow depth of field so the people are unrecognizable with no visible faces, premium commercial photography, modern corporate mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "crosswalk_business_district",
+    "title": "Defocused Business Commuters Crossing a City Street, Urban Bokeh",
+    "keywords": "commuters, business district, blurred, defocused, crossing, street, people, bokeh, urban, corporate, background, professional, motion, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused business commuters crossing a busy city street in a downtown district, gentle motion blur and soft daylight bokeh of buildings behind, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, urban professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "seminar_audience_blurred",
+    "title": "Blurred Audience at a Business Seminar with Warm Stage Bokeh",
+    "keywords": "seminar, conference, audience, blurred, defocused, people, bokeh, business, event, corporate, background, professional, presentation, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "A blurred defocused audience seated at a business seminar, warm soft bokeh from the stage lighting, strong shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, professional event mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "window_chat_colleagues",
+    "title": "Blurred Colleagues Talking by a Bright Office Window, Backlit Bokeh",
+    "keywords": "colleagues, office, blurred, defocused, people, bokeh, window, business, conversation, corporate, background, professional, backlit, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Two blurred defocused colleagues standing and talking by a large bright office window, soft backlit bokeh and gentle daylight, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, calm professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "break_area_coffee",
+    "title": "Blurred People at an Office Coffee Break Area, Warm Bokeh",
+    "keywords": "break area, coffee, office, blurred, defocused, people, bokeh, business, pantry, corporate, background, professional, casual, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused people gathered at a modern office coffee break area, warm cozy bokeh light, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, relaxed professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "walking_phone_backview",
+    "title": "Blurred Businessperson Walking Away with Phone in an Office Corridor",
+    "keywords": "businessperson, corridor, blurred, defocused, walking, phone, bokeh, office, back view, corporate, background, professional, motion, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "A single blurred defocused businessperson seen from behind walking down a modern office corridor holding a phone, cool soft bokeh light, shallow depth of field, the person unrecognizable with no visible face, premium commercial photography, professional mood, copy space. no text, no watermark, no logos, no branding, generic unbranded device",
+    "negative": "text, letters, watermark, logo, brand logo, apple logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective"
+  },
+  {
+    "name": "elevator_lobby_blurred",
+    "title": "Blurred People Waiting in a Modern Elevator Lobby, Cool Bokeh",
+    "keywords": "elevator lobby, blurred, defocused, people, bokeh, office, business, waiting, corporate, background, professional, modern, metallic, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused people waiting in a sleek modern elevator lobby, cool metallic tones and soft bokeh reflections, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, corporate mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "whiteboard_brainstorm_blurred",
+    "title": "Blurred Team Brainstorming at a Blank Whiteboard in a Bright Office",
+    "keywords": "brainstorm, team, whiteboard, blurred, defocused, people, bokeh, office, business, collaboration, corporate, background, professional, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "A blurred defocused team gathered at a blank empty whiteboard in a bright modern office, soft daylight bokeh, shallow depth of field, the people unrecognizable with no visible faces, the whiteboard clean and empty, premium commercial photography, collaborative mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, whiteboard text, writing, diagrams, chinese characters, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective"
+  },
+  {
+    "name": "airport_business_lounge",
+    "title": "Blurred Travelers in an Airport Business Lounge at Evening",
+    "keywords": "airport, business lounge, blurred, defocused, people, bokeh, travel, business, corporate, background, professional, evening, copy space, no face, out of focus, traveler",
+    "category": 3,
+    "positive": "Blurred defocused business travelers relaxing in an upscale airport lounge in the evening, warm ambient bokeh, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, professional travel mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "office_stairs_blurred",
+    "title": "Blurred People on a Modern Open Office Staircase, Daylight Bokeh",
+    "keywords": "staircase, office, blurred, defocused, people, bokeh, business, steps, corporate, background, professional, modern, architecture, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused people walking on a sculptural modern open office staircase, bright daylight and soft bokeh, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, architectural corporate mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "expo_hall_blurred",
+    "title": "Blurred Visitors Walking a Bright Business Expo Hall",
+    "keywords": "expo, trade show, blurred, defocused, people, bokeh, hall, business, event, corporate, background, professional, exhibition, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused visitors walking through a large bright business expo hall, soft bokeh of the exhibition lighting, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, busy professional event mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, chinese characters, booth signage text, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective"
+  },
+  {
+    "name": "cafeteria_blurred",
+    "title": "Blurred People in a Modern Office Cafeteria, Warm Bokeh",
+    "keywords": "cafeteria, canteen, office, blurred, defocused, people, bokeh, business, dining, corporate, background, professional, casual, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused people eating and chatting in a modern office cafeteria, warm inviting bokeh light, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, relaxed workplace mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "standing_desks_blurred",
+    "title": "Blurred People Working at Standing Desks in a Bright Office",
+    "keywords": "standing desk, office, blurred, defocused, people, bokeh, business, workspace, corporate, background, professional, modern, ergonomic, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused people working at standing desks in a bright minimal modern office, soft daylight bokeh, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, healthy workplace mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "laptop_backview_window",
+    "title": "Blurred Person at a Laptop by a Sunlit Window, Golden Bokeh",
+    "keywords": "laptop, window, blurred, defocused, person, bokeh, office, back view, business, corporate, background, professional, golden hour, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "A single blurred defocused person working at a laptop seen from behind beside a sunlit window, warm golden-hour bokeh, shallow depth of field, the person unrecognizable with no visible face, premium commercial photography, calm professional mood, copy space. no text, no watermark, no logos, no branding, generic unbranded device",
+    "negative": "text, letters, watermark, logo, brand logo, apple logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective"
+  },
+  {
+    "name": "hotel_business_lobby",
+    "title": "Blurred People in an Upscale Hotel Business Lobby, Warm Luxe Bokeh",
+    "keywords": "hotel lobby, business, blurred, defocused, people, bokeh, luxury, corporate, background, professional, travel, hospitality, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused people in an upscale hotel business lobby, warm luxurious bokeh light, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, refined professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "glass_corridor_walk",
+    "title": "Blurred People Walking a Glass Office Skybridge Corridor, Cool Bokeh",
+    "keywords": "corridor, skybridge, glass, blurred, defocused, people, bokeh, office, walking, corporate, background, professional, modern, architecture, copy space, no face",
+    "category": 3,
+    "positive": "Blurred defocused people walking through a bright glass office skybridge corridor, cool daylight and soft bokeh reflections, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, modern corporate mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "meeting_table_bokeh",
+    "title": "Blurred People Around a Meeting Table, Warm Office Bokeh",
+    "keywords": "meeting, table, blurred, defocused, people, bokeh, office, business, teamwork, corporate, background, professional, discussion, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused people seated around a meeting table in a warm modern office, soft glowing bokeh, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, collaborative professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "coworking_lounge_sofas",
+    "title": "Blurred People on Lounge Sofas in a Casual Coworking Space",
+    "keywords": "coworking, lounge, sofa, blurred, defocused, people, bokeh, startup, business, casual, corporate, background, professional, relaxed, copy space, no face",
+    "category": 3,
+    "positive": "Blurred defocused people sitting and chatting on lounge sofas in a casual modern coworking space, warm relaxed bokeh, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, creative startup mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "atrium_above_blurred",
+    "title": "Blurred People in an Office Atrium Seen From Above, Graphic Bokeh",
+    "keywords": "atrium, above, top view, blurred, defocused, people, bokeh, office, business, corporate, background, professional, architecture, copy space, no face, out of focus",
+    "category": 3,
+    "positive": "Blurred defocused people walking across a bright office atrium floor seen from high above, clean graphic composition and soft bokeh, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, modern corporate mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  },
+  {
+    "name": "night_office_citylights",
+    "title": "Blurred People in an Office at Night with City Light Bokeh",
+    "keywords": "night office, city lights, blurred, defocused, people, bokeh, business, evening, corporate, background, professional, urban, overtime, copy space, no face",
+    "category": 3,
+    "positive": "Blurred defocused people working in a modern office at night, glowing city-light bokeh through the windows, warm and cool blue tones, shallow depth of field, the people unrecognizable with no visible faces, premium commercial photography, late-night professional mood, copy space. no text, no watermark, no logos, no branding",
+    "negative": "text, letters, watermark, logo, brand logo, trademark, signature, sharp faces, detailed faces, deformed faces, distorted faces, extra limbs, extra fingers, malformed hands, low resolution, noisy, jpeg artifacts, clutter, warped perspective, bent verticals"
+  }
+]

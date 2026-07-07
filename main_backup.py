@@ -70,7 +70,7 @@ def build_mega_workflow(prompts):
         workflow[lat_id] = {"class_type": "EmptyLatentImage", "inputs": {"width": 1536, "height": 864, "batch_size": 1}}
         workflow[pos_id] = {"class_type": "CLIPTextEncode", "inputs": {"text": item["positive"], "clip": ["2", 0]}}
         workflow[neg_id] = {"class_type": "CLIPTextEncode", "inputs": {"text": item["negative"], "clip": ["2", 0]}}
-        workflow[sam_id] = {"class_type": "KSampler", "inputs": {"seed": random.randint(1, 1000000000000), "steps": 35, "cfg": 1.0, "sampler_name": "euler", "scheduler": "simple", "denoise": 1.0, "model": ["1", 0], "positive": [pos_id, 0], "negative": [neg_id, 0], "latent_image": [lat_id, 0]}}
+        workflow[sam_id] = {"class_type": "KSampler", "inputs": {"seed": random.randint(1, 1000000000000), "steps": 20, "cfg": 1.0, "sampler_name": "euler", "scheduler": "simple", "denoise": 1.0, "model": ["1", 0], "positive": [pos_id, 0], "negative": [neg_id, 0], "latent_image": [lat_id, 0]}}
         workflow[vae_id] = {"class_type": "VAEDecode", "inputs": {"samples": [sam_id, 0], "vae": ["3", 0]}}
         workflow[up_id]  = {"class_type": "ImageUpscaleWithModel", "inputs": {"upscale_model": ["4", 0], "image": [vae_id, 0]}}
         workflow[save_id] = {"class_type": "SaveImage", "inputs": {"filename_prefix": f"StockGen_{idx}", "images": [up_id, 0]}}
@@ -128,7 +128,7 @@ def main():
                             # Log Metadata for Adobe Stock CSV
                             csv_data.append({
                                 "Filename": final_filename,
-                                "Title": item["title"][:200],
+                                "Title": item["title"][:70],
                                 "Keywords": item["keywords"],
                                 "Category": item["category"],
                                 "Releases": ""

@@ -1,242 +1,402 @@
 [
-{
-"name": "hexagonal_force_field_cloud",
-"title": "Abstract Glowing Hexagonal Force Field Protecting Cloud Data Nodes",
-"keywords": "AI, cloud, computing, data, security, shield, hexagon, force, field, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, light",
-"category": 19,
-"positive": "A futuristic 3D abstract visualization of AI cloud computing security. A glowing translucent blue hexagonal force field encapsulating a dense cluster of bright floating digital nodes. Smooth energy ripples passing over the shield. Clean, minimalist dark tech background, highly detailed photorealistic render, soft volumetric lighting, elegant cybernetic defense concept.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "concentric_spheres_ai_core",
-"title": "Concentric Glowing Spheres Encapsulating an AI Core",
-"keywords": "AI, cloud, computing, data, security, sphere, concentric, core, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, energy",
-"category": 19,
-"positive": "An abstract futuristic representation of data protection. A brilliant, pulsing central AI core suspended inside multiple layers of rotating, transparent glowing spheres. Smooth gradients of cyan and purple light. High-end 3D render, perfectly smooth geometric curves, highly detailed, deep space tech background, representing unbreakable network layers.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "digital_light_streams_barrier",
-"title": "Abstract Barrier Made of Flowing Digital Light Streams",
-"keywords": "AI, cloud, computing, data, security, stream, light, flow, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, bright, elegant",
-"category": 19,
-"positive": "A conceptual abstract 3D render of network security. A smooth, flowing waterfall of dense, glowing optical light streams acting as an impenetrable barrier. Tiny sparks of protected data traveling safely behind the light wall. Deep dark background, high contrast, clean minimalist aesthetic, sharp focus on the illuminated fluid data threads.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "defensive_energy_wall",
-"title": "Dynamic Defensive Energy Barrier Deflecting Threats",
-"keywords": "AI, cloud, computing, data, security, barrier, energy, wall, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, safe, dynamic",
-"category": 19,
-"positive": "A dynamic 3D abstract visualization of active cyber defense. A solid, curved wall of shimmering neon blue energy repelling abstract crimson light flares. Soft, smooth energy ripples upon impact. Flawless gradient transitions, highly detailed energetic glow, clean tech aesthetic, cinematic studio lighting, premium background.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "fiber_optic_mesh_dome",
-"title": "Protective Dome of Woven Fiber Optic Cables Over Server Matrix",
-"keywords": "AI, cloud, computing, data, security, fiber, optic, dome, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, macro, internet",
-"category": 19,
-"positive": "A macro 3D render of a protective dome woven from brilliantly glowing fiber optic cables, covering a soft, out-of-focus matrix of server lights below. High-end technology concept, deep blues and glowing whites, completely smooth curves of the glass fibers, elegant and modern cloud computing defense visual.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "geometric_encrypted_puzzle",
-"title": "Glowing Geometric Glass Puzzle Pieces Representing Encryption",
-"keywords": "AI, cloud, computing, data, security, encryption, geometry, puzzle, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, glass, pattern",
-"category": 19,
-"positive": "An abstract, hyper-realistic 3D rendering of data encryption. Heavy, smooth, glowing translucent glass puzzle pieces interlocking perfectly to form a solid, impenetrable surface. Soft internal bioluminescence inside the glass, deep dark background, sophisticated technology concept, immaculate detail, highly polished aesthetic.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "quantum_entanglement_security",
-"title": "Quantum Entanglement Threads Forming a Secure Digital Network",
-"keywords": "AI, cloud, computing, data, security, quantum, thread, glow, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, complex, bright",
-"category": 19,
-"positive": "A mesmerizing abstract visualization of quantum cloud security. Countless ethereal, glowing strings of light intertwining tightly around a central core of pure white energy. Soft, continuous curves, no sharp edges, dark cinematic void background. High-resolution photorealistic render of invisible data bonds, elegant and secure.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "glowing_optical_maze",
-"title": "Secure Glowing Optical Circuit Maze Architecture",
-"keywords": "AI, cloud, computing, data, security, maze, optical, circuit, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, path, complex",
-"category": 19,
-"positive": "A premium 3D abstract background of a glowing optical circuit maze. Thick, smooth, luminous pathways of cyan and teal light routing around an impenetrable central hub. Deep contrast, immaculate focus on the glowing paths, representing secure data routing and AI logic. Clean, minimalist tech design.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "blue_crystal_data_stream",
-"title": "Pristine Blue Crystal Data Stream Flowing Securely",
-"keywords": "AI, cloud, computing, data, security, crystal, blue, stream, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, pristine, clear",
-"category": 19,
-"positive": "A hyper-realistic abstract macro render of cloud computing data. A highly organized, perfectly parallel stream of pristine, softly glowing blue crystals flowing flawlessly through a dark, sterile digital void. Represents pure, uncorrupted, encrypted data transmission. Flawless reflections, elegant modern aesthetic.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "kaleidoscopic_mirror_security",
-"title": "Kaleidoscopic Mirror Reflecting Secure Data Rays",
-"keywords": "AI, cloud, computing, data, security, kaleidoscope, mirror, reflection, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, light, symmetric",
-"category": 19,
-"positive": "A stunning abstract 3D visualization of symmetric cyber security. A highly polished, multi-faceted internal mirror structure flawlessly reflecting dense, secure rays of neon light. Infinite reflections simulating complex encryption algorithms. Perfectly clean surfaces, photorealistic lighting, deep blacks and intense glowing highlights.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, UI elements"
-},
-{
-"name": "abstract_artificial_brain_cloud",
-"title": "Abstract Artificial Neural Brain Connected to Cloud Data",
-"keywords": "AI, cloud, computing, data, security, brain, neural, artificial, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, intelligence, smart",
-"category": 19,
-"positive": "An elegant 3D abstract concept of an artificial intelligence brain. Formed entirely of smooth, glowing, intertwined optical fibers, floating above a pristine, dark reflective surface. The structure pulsates gently with secure, calm blue and green light. High-end technology background, sophisticated, representing safe AI processing.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, anatomical, gore"
-},
-{
-"name": "neural_network_shell",
-"title": "Protective Neural Network Shell Around a Glowing Orb",
-"keywords": "AI, cloud, computing, data, security, neural, shell, network, protection, technology, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, intelligence, organic, safe",
-"category": 19,
-"positive": "A macro abstract 3D render showing a protective shell made of thick, smooth, glowing neural network branches tightly wrapping around a pure, brilliant white central energy orb. Represents AI-driven adaptive cyber defense. Dark, moody background, flawless organic curves, cinematic studio lighting.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, sharp edges, roots"
-},
-{
-"name": "pulsating_ai_core",
-"title": "Pulsating AI Core Processor in a Clean Digital Void",
-"keywords": "AI, cloud, computing, data, security, core, processor, pulse, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, processor, hardware",
-"category": 19,
-"positive": "A futuristic highly detailed 3D render of an abstract AI core processor. A monolithic, smooth block of dark tech material emanating deep, secure pulses of cyan and violet light from its internal seams. Impeccably clean, sitting in an infinite dark studio space. Minimalist, powerful, premium server technology aesthetic.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, cables, wires"
-},
-{
-"name": "luminous_cloud_shape",
-"title": "Abstract Luminous Cloud Architecture of Nodes and Lines",
-"keywords": "AI, cloud, computing, data, security, luminous, shape, dot, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, line, bright",
-"category": 19,
-"positive": "An abstract, sophisticated 3D visualization of cloud computing. A recognizable but entirely abstract cloud shape formed by thousands of perfectly spaced glowing data nodes connected by thin, luminous curved lines. Floating in a deep indigo void. Soft depth of field, minimalist, highly secure and organized network aesthetic.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, fluffy cloud, weather"
-},
-{
-"name": "digital_fiber_optic_eye",
-"title": "Abstract Digital Fiber Optic Eye Scanning the Network",
-"keywords": "AI, cloud, computing, data, security, eye, fiber, optic, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, scan, vision",
-"category": 19,
-"positive": "A conceptual abstract 3D render of an AI security sentinel. A beautiful, smooth, abstract eye structure constructed entirely from looping, glowing fiber optic cables. The center emanates a calm, watchful blue light representing active threat detection. Pristine, dark studio background, elegant curves, high technology visual.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, organic eye, creepy"
-},
-{
-"name": "pristine_server_architecture",
-"title": "Infinite Pristine Server Architecture with Glowing Data Lines",
-"keywords": "AI, cloud, computing, data, security, server, architecture, room, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, pristine, clean",
-"category": 19,
-"positive": "An ultra-clean, minimalist 3D rendering of futuristic cloud server architecture. Completely smooth, featureless dark monolithic server blades towering infinitely, connected by perfectly straight, intensely glowing neon blue data streams on the floor. Highly organized, secure, pristine environment, flawless reflections.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, cables, wires, dirt, realistic room"
-},
-{
-"name": "armored_digital_canyon",
-"title": "River of Light Flowing Through an Armored Digital Canyon",
-"keywords": "AI, cloud, computing, data, security, canyon, armor, river, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, flow, landscape",
-"category": 19,
-"positive": "An abstract high-tech landscape. A brilliant, dense river of flowing golden digital light racing smoothly through a deep canyon made of sleek, perfectly smooth, dark armored cybernetic panels. Represents heavily guarded and isolated data pipelines. Photorealistic 3D environment, dramatic studio lighting.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, rocks, water, real nature"
-},
-{
-"name": "thick_walled_microchip",
-"title": "Macro View of a Futuristic Microchip with Thick Protective Walls",
-"keywords": "AI, cloud, computing, data, security, microchip, wall, thick, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, hardware, macro",
-"category": 19,
-"positive": "An extreme macro 3D render of a highly advanced conceptual microchip. The central processing core is surrounded by exceptionally thick, smooth, glowing translucent walls, acting as a physical digital fortress. Softly illuminated internal circuits, dark minimalist background. Impeccable detail, representing unbreakable hardware encryption.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, dust, scratches"
-},
-{
-"name": "floating_monolithic_storage",
-"title": "Floating Monolithic Data Storage with Protective Light Rings",
-"keywords": "AI, cloud, computing, data, security, monolith, floating, ring, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, storage, monument",
-"category": 19,
-"positive": "A majestic abstract 3D composition. A massive, sleek, perfectly smooth obsidian monolith hovering in a dark cyberspace void, representing massive cloud storage. It is surrounded by three perfectly concentric, continuously orbiting rings of brilliant white and blue light. Concept of highly secure, isolated data hoarding.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, gravity, landscape"
-},
-{
-"name": "floating_island_circuits",
-"title": "Decentralized Cloud Computing Floating Circuit Islands",
-"keywords": "AI, cloud, computing, data, security, island, circuit, float, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, board, space",
-"category": 19,
-"positive": "An abstract, futuristic 3D visualization of decentralized cloud security. Smooth, isolated geometric platforms floating weightlessly in a dark digital void, each holding glowing, secure data clusters. Gentle beams of light securely connecting the islands. Minimalist, clean, photorealistic volumetric lighting.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, earth islands, grass"
-},
-{
-"name": "firewall_golden_light",
-"title": "Abstract Digital Firewall Made of Solid Golden Light",
-"keywords": "AI, cloud, computing, data, security, firewall, golden, light, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, wall, bright",
-"category": 19,
-"positive": "A stunning abstract 3D render of an active firewall. A perfectly flat, infinitely tall wall made entirely of dense, flowing golden liquid light. Tiny harmless blue data sparks wait securely behind the immense glow. High contrast, ultra-modern, represents an impenetrable barrier against cyber threats.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, bricks, real fire, flames"
-},
-{
-"name": "rotating_defense_rings",
-"title": "Central Data Core Protected by Heavy Rotating Metallic Rings",
-"keywords": "AI, cloud, computing, data, security, ring, rotate, defense, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, dynamic, metal",
-"category": 19,
-"positive": "A highly detailed, futuristic 3D abstract render. A brilliant cluster of protected data light at the center, fully enclosed by multiple layers of thick, heavy, smoothly machined dark metallic rings rotating on different axes. Soft specular highlights on the metal, deep dark background, ultimate cyber defense.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, rust, dirt, scratches"
-},
-{
-"name": "scanning_laser_grid",
-"title": "Immaculate Scanning Laser Grid Over an Abstract Circuit",
-"keywords": "AI, cloud, computing, data, security, laser, grid, scan, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, circuit, bright",
-"category": 19,
-"positive": "An abstract, hyper-clean 3D visualization of AI threat scanning. A perfectly uniform, brilliant cyan laser grid projecting downwards onto a smooth, minimalist dark technology surface. Soft glowing dust particles illuminated by the lasers. Completely flat, organized, representing active cloud security monitoring.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, wires, messy circuits"
-},
-{
-"name": "digital_particle_umbrella",
-"title": "Protective Umbrella Formed by Glowing Digital Particles",
-"keywords": "AI, cloud, computing, data, security, umbrella, particle, cover, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, safe, shield",
-"category": 19,
-"positive": "A conceptual abstract 3D render of data shielding. A massive, smooth canopy formed entirely by millions of suspended, glowing blue digital particles, sheltering a pristine, illuminated data core beneath it. Deep, infinite dark background. Soft focus, elegant curves, representing continuous cloud cover and safety.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, real umbrella, rain"
-},
-{
-"name": "glass_armor_plating",
-"title": "Abstract Glowing Glass Armor Plating Interlocking",
-"keywords": "AI, cloud, computing, data, security, glass, armor, plate, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, transparent, solid",
-"category": 19,
-"positive": "An extreme close-up 3D abstract render of thick, overlapping plates of frosted, glowing tech-glass closing tightly together to form an impenetrable surface. Deep violet and cyan lights emanate from between the plates. Incredibly smooth surfaces, flawless geometric integration, modern, high-end cyber defense imagery.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, medieval armor, metal"
-},
-{
-"name": "high_tech_vault_gears",
-"title": "Abstract High-Tech Vault Mechanisms with Glowing Energy",
-"keywords": "AI, cloud, computing, data, security, gear, vault, mechanism, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, safe, metal",
-"category": 19,
-"positive": "A photorealistic abstract 3D render of immense, smoothly machined dark circular mechanisms interlocking seamlessly, representing an impregnable digital vault. Intense neon energy seeps smoothly from the perfect gaps between the moving parts. Completely clean, no traditional locks or keyholes, futuristic cyber-fortress concept.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, steampunk, rust"
-},
-{
-"name": "dark_cyberspace_constellation",
-"title": "Constellation of Secure Data Nodes in Dark Cyberspace",
-"keywords": "AI, cloud, computing, data, security, constellation, space, dark, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, node, star",
-"category": 19,
-"positive": "An expansive, deeply atmospheric abstract 3D visualization of a secure AI network. A vast, tranquil dark void populated by widely spaced, brilliantly glowing, smooth spherical data nodes. The nodes are connected by faint, highly secure digital light threads. Minimalist, premium background, representing an unbreachable cloud.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, real stars, planets"
-},
-{
-"name": "digital_prism_spectrum",
-"title": "Digital Prism Splitting Data into Secure Light Spectrums",
-"keywords": "AI, cloud, computing, data, security, prism, spectrum, split, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, color, rainbow",
-"category": 19,
-"positive": "A stunning conceptual 3D render. A massive, perfectly cut, floating transparent geometric prism taking in a chaotic beam of white light and refracting it into perfectly straight, securely organized, softly glowing individual data streams of distinct colors. Clean dark studio background, elegant data sorting and encryption.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, physical glass flaws"
-},
-{
-"name": "bioluminescent_digital_cloud",
-"title": "Deep Bioluminescent Digital Cloud in a Sleek Void",
-"keywords": "AI, cloud, computing, data, security, bioluminescent, void, dark, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, organic, deep",
-"category": 19,
-"positive": "A mesmerizing abstract 3D background. An amorphous, incredibly smooth, flowing cloud-like entity hovering in a pitch-black digital space. The entity softly glows from within using deep bioluminescent aquamarine and indigo lights, representing a highly advanced, isolated, and secure AI cloud organism. Completely fluid, serene, powerful.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, real clouds, smoke"
-},
-{
-"name": "impenetrable_energy_block",
-"title": "Impenetrable Solid Block of Glowing Digital Energy",
-"keywords": "AI, cloud, computing, data, security, block, solid, energy, protection, technology, network, abstract, background, digital, secure, defense, future, cyber, modern, glowing, system, tech, information, science, futuristic, connection, virtual, innovation, heavy, impenetrable",
-"category": 19,
-"positive": "An ultra-minimalist abstract 3D render representing absolute data security. A single, heavy, monumental rectangular block made entirely of compressed, brightly glowing solid neon digital energy. Hovering slightly above a perfectly smooth, dark reflective floor. Intimidatingly simple, pristine edges, flawless studio lighting.",
-"negative": "text, watermark, signature, noisy, blurry, lock, padlock, key, keyhole, human, animal, complex geometry, chaotic, messy, low resolution, overexposed, words, letters, textures, scratches, imperfections"
-}
+  {
+    "name": "topographic_contour_teal",
+    "title": "Abstract Topographic Contour Lines Background, Glowing Teal Map Lines on Dark Navy with Copy Space",
+    "keywords": "abstract background, topographic map, contour lines, teal, dark blue, technology background, line pattern, copy space, banner, website background, wallpaper, data, digital, design element, no people, modern, presentation, futuristic, geography, elevation, minimal",
+    "category": 8,
+    "positive": "A wide dark navy background covered with fine glowing teal topographic contour lines, like an elevation map drawn in light, smooth organic curves flowing across the lower half of the frame, the upper third fading into clean empty dark space for copy, crisp thin luminous strokes, sharp focus, fine detail, elegant commercial tech aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, map labels, place names, numbers, people, person, hands, blurry, low resolution"
+  },
+  {
+    "name": "hexagon_grid_depth_blue",
+    "title": "Abstract Hexagonal Grid Background in Deep Blue, 3D Honeycomb Cells with Glowing Edges and Copy Space",
+    "keywords": "abstract background, hexagon, honeycomb pattern, blue, geometric background, 3d render, technology background, copy space, banner, website background, wallpaper, network, structure, design element, no people, modern, futuristic, presentation, depth, dark blue",
+    "category": 8,
+    "positive": "A field of three-dimensional hexagonal cells in deep blue tones stretching across the right side of a wide frame, some cells raised at different heights with thin glowing cyan edges, shallow depth of field softening the far cells, the left third dissolving into smooth empty dark blue gradient for copy, clean studio lighting, sharp focus, fine detail, premium commercial 3D aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, numbers, icons, people, person, hands, cluttered, low resolution"
+  },
+  {
+    "name": "light_trails_velocity",
+    "title": "Abstract Light Trails Background, Blue and Orange Speed Lines Streaking Across Dark Space with Copy Space",
+    "keywords": "abstract background, light trails, speed, motion blur, blue, orange, technology background, copy space, banner, website background, wallpaper, energy, fast, design element, no people, dynamic, dark, futuristic, presentation, movement",
+    "category": 8,
+    "positive": "Long-exposure style streaks of blue and warm orange light sweeping horizontally across a black background, curving gently like traffic light trails at night, concentrated along the lower half with the upper half left as clean empty darkness for copy, luminous smooth ribbons of light with soft glow, crisp rendering, high contrast, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, cars, vehicles, road signs, people, person, buildings, low resolution"
+  },
+  {
+    "name": "fiber_optic_amber",
+    "title": "Fiber Optic Strands Macro Background, Glowing Amber and Gold Light Points on Dark Brown with Copy Space",
+    "keywords": "abstract background, fiber optics, glowing lights, amber, gold, technology background, macro, copy space, banner, website background, wallpaper, connection, communication, design element, no people, dark, warm, bokeh, presentation, internet",
+    "category": 8,
+    "positive": "Extreme macro of thin fiber optic strands glowing amber and gold, tips lit like tiny warm stars, strands sweeping in from the right side of a wide frame against deep brown-black darkness, soft bokeh points of light scattered behind, the left half kept as clean empty dark space for copy, shallow depth of field, sharp focus on the nearest strands, fine detail, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, person, hands, cables tangled, clutter, low resolution"
+  },
+  {
+    "name": "wireframe_terrain_violet",
+    "title": "Abstract Wireframe Terrain Background, Violet Glowing Mesh Landscape on Black with Copy Space",
+    "keywords": "abstract background, wireframe, mesh, violet, purple, terrain, technology background, 3d render, copy space, banner, website background, wallpaper, grid, digital landscape, design element, no people, dark, futuristic, presentation, geometry",
+    "category": 8,
+    "positive": "A glowing violet wireframe mesh shaped like rolling mountain terrain, thin luminous grid lines rising and falling across the bottom third of a wide black frame, gentle purple-to-magenta gradient along the peaks, the upper two thirds left as clean empty black space for copy, crisp fine lines, subtle glow, elegant commercial 3D aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, numbers, sun, planet, people, person, low resolution"
+  },
+  {
+    "name": "halftone_dot_wave_cyan",
+    "title": "Abstract Halftone Dot Wave Background, Cyan Gradient Dots Flowing on White with Large Copy Space",
+    "keywords": "abstract background, halftone, dot pattern, cyan, wave, white background, geometric, copy space, banner, website background, wallpaper, pop, gradient, design element, no people, minimal, clean, modern, presentation, pattern",
+    "category": 8,
+    "positive": "A smooth wave of tiny cyan dots flowing across the bottom of a clean white background, halftone style where the dots grow larger and denser toward the lower edge and dissolve into pure white above, one gentle curving swell rising on the right, most of the frame kept as bright empty white space for copy, crisp perfectly round dots, flat modern graphic style, sharp focus, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, noise, grain, people, person, smudges, low resolution"
+  },
+  {
+    "name": "prism_light_spectrum",
+    "title": "Prism Light Refraction Background, Rainbow Spectrum Beam on Dark Gray with Elegant Copy Space",
+    "keywords": "abstract background, prism, light refraction, rainbow, spectrum, dark background, optical, copy space, banner, website background, wallpaper, physics, color, design element, no people, elegant, minimal, creative, presentation, glow",
+    "category": 8,
+    "positive": "A single beam of white light entering from the upper left of a dark charcoal background and splitting into a soft rainbow spectrum fan across the lower right corner, delicate bands of red through violet glowing against the darkness, fine floating dust particles catching the light, the center and left kept as clean empty dark space for copy, cinematic contrast, sharp focus, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, glass triangle distorted, people, person, hands, lens flare excessive, low resolution"
+  },
+  {
+    "name": "led_points_bokeh_dark",
+    "title": "Defocused Blue and Green LED Light Points Background, Server Room Bokeh on Black with Copy Space",
+    "keywords": "abstract background, bokeh, led lights, blue, technology background, dark background, glowing dots, copy space, banner, website background, wallpaper, data center, digital, design element, no people, network, modern, presentation, night, green",
+    "category": 8,
+    "positive": "Rows of tiny defocused blue and green points of light receding into darkness, like indicator lights in a dark server aisle turned into pure abstract bokeh, circles of light larger and softer in the foreground, arranged in loose horizontal bands across the right half of a wide frame, the left half fading to clean empty black for copy, deep rich contrast, smooth creamy bokeh, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, screens, monitors, cables, people, person, hands, low resolution"
+  },
+  {
+    "name": "concentric_rings_green",
+    "title": "Abstract Concentric Glowing Rings Background, Emerald Green Circles Pulsing on Dark with Copy Space",
+    "keywords": "abstract background, concentric circles, rings, green, glow, dark background, radar, copy space, banner, website background, wallpaper, signal, technology background, design element, no people, energy, modern, futuristic, presentation, pulse",
+    "category": 8,
+    "positive": "Concentric glowing emerald green rings radiating outward from a point in the lower right of a wide dark frame, each ring thinner and fainter as it expands, subtle mist of green light around the center, the left two thirds of the frame kept as clean empty near-black space for copy, crisp luminous circles, smooth gradients, elegant commercial tech aesthetic, sharp focus, fine detail, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, numbers, crosshair, target markings, people, person, low resolution"
+  },
+  {
+    "name": "crimson_silk_ribbons",
+    "title": "Abstract Flowing Crimson Silk Ribbons Background, Elegant Red 3D Waves on Dark with Copy Space",
+    "keywords": "abstract background, silk, ribbon, red, crimson, flowing, wave, 3d render, copy space, banner, website background, wallpaper, luxury, elegant, design element, no people, dark, smooth, presentation, motion",
+    "category": 8,
+    "positive": "Smooth three-dimensional ribbons of deep crimson silk flowing diagonally through the right side of a wide dark burgundy frame, soft studio light catching the folds with satin highlights, graceful overlapping waves frozen in motion, the left half fading into clean empty dark space for copy, rich saturated red tones, sharp focus, fine fabric detail, premium luxury commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, person, hands, wrinkled fabric messy, torn edges, low resolution"
+  },
+  {
+    "name": "gold_particle_wave",
+    "title": "Golden Particle Wave Background, Glittering Gold Dust Flowing on Black with Luxury Copy Space",
+    "keywords": "abstract background, gold, particles, glitter, wave, black background, luxury background, copy space, banner, website background, wallpaper, elegant, celebration, design element, no people, premium, dark, sparkle, presentation, flow",
+    "category": 8,
+    "positive": "A sweeping wave of fine golden particles flowing like luminous dust across the bottom third of a wide black frame, thousands of tiny glowing gold specks with a few soft bokeh sparkles, the wave rising slightly on the right and trailing off to the left, upper two thirds kept as clean empty black space for copy, warm rich gold tones against deep black, sharp focus, fine detail, premium luxury commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, person, hands, confetti shapes, stars, low resolution"
+  },
+  {
+    "name": "white_circuit_relief",
+    "title": "Minimal White Embossed Circuit Pattern Background, Clean Paper Relief Tech Texture with Copy Space",
+    "keywords": "abstract background, circuit pattern, white background, embossed, minimal, technology background, paper texture, copy space, banner, website background, wallpaper, clean, subtle, design element, no people, modern, elegant, presentation, relief, monochrome",
+    "category": 8,
+    "positive": "A pure white background with a subtle embossed circuit-board style pattern pressed into it like debossed paper, delicate raised traces and small round nodes visible only through soft shadows from gentle side lighting, the pattern concentrated along the right edge and fading to smooth blank white across the left two thirds for copy, extremely minimal and clean, sharp focus, fine tactile detail, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, numbers, chips with markings, people, person, dirt, stains, low resolution"
+  },
+  {
+    "name": "grainy_gradient_coral",
+    "title": "Grainy Gradient Background in Coral Peach and Dusty Pink, Soft Noise Texture with Copy Space",
+    "keywords": "abstract background, gradient, grainy texture, coral, peach, pink, noise, copy space, banner, website background, wallpaper, warm, soft, design element, no people, trendy, minimal, modern, presentation, pastel",
+    "category": 8,
+    "positive": "A soft wide gradient flowing from warm coral at the bottom left through peach into dusty pink at the top right, covered with a fine even film grain texture that gives it a tactile retro-modern feel, gentle diffuse color transitions with no hard edges, the entire frame usable as copy space, subtle vignette, smooth analog warmth, contemporary graphic design aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, banding, harsh lines, objects, people, person, dust spots large, low resolution"
+  },
+  {
+    "name": "emerald_black_gradient",
+    "title": "Deep Emerald Green to Black Gradient Background, Smooth Dark Luxury Backdrop with Copy Space",
+    "keywords": "abstract background, gradient, emerald green, dark green, black, luxury background, backdrop, copy space, banner, website background, wallpaper, elegant, premium, design element, no people, smooth, dark, presentation, rich, minimal",
+    "category": 8,
+    "positive": "A smooth luxurious gradient background transitioning from deep emerald green glowing softly in the lower right corner into rich velvety black across the rest of the wide frame, extremely smooth tonal transitions like light falling on dark velvet, a faint soft sheen at the brightest point, the whole frame open as elegant copy space, deep saturated jewel tones, flawless clean rendering, premium commercial backdrop aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, banding, noise, objects, people, person, scratches, low resolution"
+  },
+  {
+    "name": "light_leak_pastel_cream",
+    "title": "Soft Light Leak Background on Cream, Dreamy Pastel Rainbow Glow Overlay with Copy Space",
+    "keywords": "abstract background, light leak, cream, pastel, glow, overlay, soft background, copy space, banner, website background, wallpaper, dreamy, romantic, design element, no people, warm, gentle, minimal, presentation, film",
+    "category": 8,
+    "positive": "A warm cream background washed with soft dreamy light leaks, gentle streaks of pastel pink, gold and faint lilac light drifting diagonally across the upper right corner like sunlight through a window on film, the rest of the frame smooth blank cream serving as generous copy space, delicate airy glow with feathered edges, romantic analog mood, clean high-key rendering, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, harsh flare, sun disk, window frame, objects, people, person, dust, low resolution"
+  },
+  {
+    "name": "spotlight_dark_wall",
+    "title": "Spotlight on Dark Concrete Wall Background, Dramatic Empty Stage Backdrop with Copy Space",
+    "keywords": "abstract background, spotlight, dark wall, concrete, backdrop, stage, dramatic lighting, copy space, banner, website background, wallpaper, product display, showcase, design element, no people, moody, minimal, presentation, empty, gray",
+    "category": 8,
+    "positive": "A single soft round spotlight glowing on a dark charcoal concrete wall, the pool of warm light positioned right of center and fading into deep shadow toward the edges of the wide frame, subtle concrete texture visible inside the lit area, an empty dramatic stage-like backdrop ready for product or message placement, generous dark copy space on the left, cinematic moody lighting, sharp focus, fine texture detail, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, objects, furniture, people, person, cracks large, graffiti, low resolution"
+  },
+  {
+    "name": "gray_studio_sweep",
+    "title": "Neutral Gray Studio Backdrop Background, Seamless Photography Sweep with Soft Gradient and Copy Space",
+    "keywords": "abstract background, studio backdrop, gray, seamless, neutral, photography background, gradient, copy space, banner, website background, wallpaper, product display, professional, design element, no people, clean, minimal, presentation, empty, simple",
+    "category": 8,
+    "positive": "An empty seamless gray photography studio sweep, smooth neutral mid-gray curving gently from floor into wall with no visible corner, soft even studio lighting creating a gentle gradient brighter at center and subtly darker at the wide frame edges, completely clean and empty surface ready for product placement or design overlay, the entire frame as usable copy space, flawless professional rendering, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, objects, equipment, tripod, seams, wrinkles, people, person, stains, low resolution"
+  },
+  {
+    "name": "duotone_wave_pink_blue",
+    "title": "Abstract Duotone Wave Background, Smooth Pink and Blue Gradient Curves with Copy Space",
+    "keywords": "abstract background, wave, gradient, pink, blue, duotone, curve, copy space, banner, website background, wallpaper, fluid, colorful, design element, no people, smooth, modern, vibrant, presentation, flow",
+    "category": 8,
+    "positive": "Large smooth abstract waves of gradient color flowing across a wide frame, vivid pink melting into electric blue along soft curving bands like layered silk of pure color, the waves concentrated in the lower half with crests sweeping up on the right, upper left area settling into a calm pale gradient as clean copy space, buttery smooth color transitions, contemporary vibrant design aesthetic, flawless rendering, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, banding, hard edges, objects, people, person, noise, low resolution"
+  },
+  {
+    "name": "dawn_sky_gradient_soft",
+    "title": "Soft Dawn Sky Gradient Background, Peach to Lavender to Blue Smooth Horizon with Copy Space",
+    "keywords": "abstract background, sky gradient, dawn, peach, lavender, blue, horizon, copy space, banner, website background, wallpaper, calm, serene, design element, no people, soft, gradient, minimal, presentation, morning",
+    "category": 8,
+    "positive": "A serene gradient background inspired by a dawn sky, warm peach light along the bottom edge blending upward through soft rose and lavender into calm powder blue at the top of the wide frame, perfectly smooth atmospheric transitions with a faint haze near the horizon line, no clouds and no landscape, the entire frame open as tranquil copy space, delicate airy color, flawless clean rendering, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, sun disk, clouds, birds, mountains, buildings, people, person, banding, low resolution"
+  },
+  {
+    "name": "navy_vignette_backdrop",
+    "title": "Deep Navy Blue Premium Backdrop Background, Dark Elegant Gradient with Soft Center Glow and Copy Space",
+    "keywords": "abstract background, navy blue, dark background, backdrop, gradient, premium, elegant, copy space, banner, website background, wallpaper, corporate, luxury background, design element, no people, deep blue, minimal, presentation, glow, professional",
+    "category": 8,
+    "positive": "A deep navy blue backdrop with a soft diffuse glow at the center right fading into darker indigo toward the wide frame edges, like velvet lit by a distant soft light, extremely smooth gradients with a barely perceptible fine texture that keeps it feeling premium rather than flat, the whole frame open as elegant dark copy space for corporate and luxury design, rich saturated blue tones, flawless clean rendering, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, banding, objects, stars, people, person, scratches, dust, low resolution"
+  },
+  {
+    "name": "curved_white_architecture",
+    "title": "Abstract Curved White Architecture Background, Smooth Flowing 3D Forms with Soft Light and Copy Space",
+    "keywords": "abstract background, white, architecture, curve, 3d render, minimal, smooth forms, copy space, banner, website background, wallpaper, clean, modern, design element, no people, elegant, soft light, presentation, sculpture, futuristic",
+    "category": 8,
+    "positive": "Smooth flowing white architectural forms curving through the right side of a wide bright frame, like an abstract sculpture of overlapping ribbons of matte white plaster, soft daylight wrapping around the curves with delicate gray shadows in the recesses, the left half opening into clean empty white space for copy, pure minimal palette of whites and pale grays, sharp focus, fine surface detail, premium commercial 3D aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, windows, doors, people, person, cracks, dirt, low resolution"
+  },
+  {
+    "name": "spiral_staircase_white",
+    "title": "Abstract White Spiral Staircase Background, Minimal Architectural Curves from Above with Copy Space",
+    "keywords": "abstract background, spiral staircase, white, architecture, minimal, curve, geometric, copy space, banner, website background, wallpaper, modern, clean, design element, no people, elegant, spiral, presentation, interior, perspective",
+    "category": 8,
+    "positive": "Looking down into an elegant white spiral staircase curling like a nautilus shell, smooth minimal white railings and steps spiraling into soft shadow at the center, positioned in the right half of a wide frame, the left side dissolving into bright clean white wall as generous copy space, soft even daylight, pure architectural geometry with no people and no objects, sharp focus, fine detail, premium editorial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, signage, people, person, hands, clutter, uneven steps, warped railing, low resolution"
+  },
+  {
+    "name": "columns_light_shadow",
+    "title": "Minimal Columns with Light and Shadow Background, Beige Architectural Rhythm with Copy Space",
+    "keywords": "abstract background, columns, light and shadow, beige, architecture, minimal, geometric, copy space, banner, website background, wallpaper, elegant, calm, design element, no people, warm, clean, presentation, repetition, neutral",
+    "category": 8,
+    "positive": "A row of smooth minimal beige columns receding along the right side of a wide frame, strong warm sunlight casting long diagonal shadows between them in a calm repeating rhythm, soft sandstone tones, the left portion of the frame falling into a smooth shaded wall that serves as clean copy space, quiet meditative architectural mood, sharp focus, fine texture detail, premium editorial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, statues, carvings, people, person, plants, cracks, low resolution"
+  },
+  {
+    "name": "matte_sage_cubes",
+    "title": "Matte Sage Green Cubes Background, Minimal 3D Geometric Composition with Soft Light and Copy Space",
+    "keywords": "abstract background, cubes, sage green, 3d render, geometric, minimal, matte, copy space, banner, website background, wallpaper, calm, modern, design element, no people, soft, pastel, presentation, blocks, composition",
+    "category": 8,
+    "positive": "A small cluster of matte sage green cubes in different sizes arranged in the lower right of a wide frame, soft diffuse studio light giving each face a slightly different tone of muted green, gentle soft shadows anchoring them to a smooth pale sage floor that blends into a matching wall, the upper left two thirds kept as clean empty gradient space for copy, calm sophisticated palette, sharp focus, fine matte texture, premium commercial 3D aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, dice dots, markings, people, person, clutter, floating unnaturally, low resolution"
+  },
+  {
+    "name": "ceramic_torus_rings",
+    "title": "White Ceramic Torus Rings Background, Abstract Minimal 3D Shapes with Soft Shadows and Copy Space",
+    "keywords": "abstract background, torus, rings, white, ceramic, 3d render, minimal, copy space, banner, website background, wallpaper, clean, modern, design element, no people, elegant, geometric, presentation, soft shadow, sculpture",
+    "category": 8,
+    "positive": "Two smooth white ceramic torus rings, one standing upright and one lying flat beneath it, arranged on the right third of a wide off-white frame, soft directional light creating delicate curved shadows on the seamless pale surface, subtle glossy ceramic sheen on the ring edges, the left two thirds completely clean and empty as bright copy space, refined minimal still-life mood, sharp focus, fine detail, premium commercial 3D aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, cracks, chips, people, person, hands, extra objects, clutter, low resolution"
+  },
+  {
+    "name": "wavy_relief_panel",
+    "title": "White Wavy 3D Relief Panel Background, Sculpted Plaster Wave Texture with Soft Side Light and Copy Space",
+    "keywords": "abstract background, wave pattern, relief, white, plaster, 3d texture, wall panel, copy space, banner, website background, wallpaper, elegant, minimal, design element, no people, sculpted, clean, presentation, interior, decorative",
+    "category": 8,
+    "positive": "A sculpted white plaster wall panel with smooth parallel wave ridges flowing vertically, soft warm side light raking across the surface so each ridge casts a gentle gradient shadow, the waves filling the right half of a wide frame and gradually flattening into smooth blank white wall across the left half as copy space, tactile matte texture, calm elegant interior mood, sharp focus, fine surface detail, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, cracks, stains, people, person, objects, shelf, low resolution"
+  },
+  {
+    "name": "stone_podium_beige",
+    "title": "Empty Stone Podium Background for Product Display, Beige Pedestal with Soft Natural Light and Copy Space",
+    "keywords": "product display background, podium, pedestal, stone, beige, mockup, showcase, copy space, product photography, presentation, banner, website background, stage, design element, no people, minimal, neutral, natural light, elegant, cosmetics",
+    "category": 8,
+    "positive": "An empty round beige stone podium standing on a smooth sand-colored surface against a warm neutral wall, soft natural window light falling from the left and casting one gentle diagonal shadow, the podium placed in the right third of a wide frame with its top surface completely bare and ready for a product, the left two thirds of the frame open as calm empty copy space, warm mineral texture on the stone, sharp focus, fine detail, premium commercial product-stage aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, products, bottles, objects on podium, people, person, hands, plants, cracks, low resolution"
+  },
+  {
+    "name": "marble_ink_gold",
+    "title": "White Marble Texture Background with Gold Veins, Luxury Liquid Ink Swirl Pattern with Copy Space",
+    "keywords": "marble texture, abstract background, gold, white, luxury background, ink, veins, copy space, banner, website background, wallpaper, elegant, premium, design element, no people, swirl, stone, presentation, wedding, glamour",
+    "category": 8,
+    "positive": "An elegant white marble surface with flowing veins of liquid gold swirling through it, the golden ribbons concentrated along the bottom and right edges of a wide frame and thinning out toward the upper left where the marble becomes smooth soft white as copy space, delicate gray undertones in the stone, metallic shimmer in the gold veins, luxurious flat texture viewed straight on, sharp focus, fine mineral detail, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, cracks, chips, objects, people, person, glitter chunks, low resolution"
+  },
+  {
+    "name": "brushed_titanium_metal",
+    "title": "Brushed Titanium Metal Texture Background, Fine Silver Gray Industrial Surface with Copy Space",
+    "keywords": "metal texture, brushed metal, titanium, silver, gray, abstract background, industrial, copy space, banner, website background, wallpaper, steel, surface, design element, no people, modern, sleek, presentation, technology background, premium",
+    "category": 8,
+    "positive": "A flat brushed titanium metal surface filling the frame, fine horizontal brushing lines catching a soft gradient of cool light that sweeps from a bright silver band on the left into deeper graphite gray on the right, subtle anisotropic sheen typical of machined metal, perfectly clean surface with no scratches or marks, the smooth tonal areas serving as sleek copy space, precise industrial elegance, sharp focus, fine metallic grain detail, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, rust, scratches, dents, screws, bolts, fingerprints, people, person, low resolution"
+  },
+  {
+    "name": "frosted_glass_blue",
+    "title": "Frosted Glass Texture Background in Ice Blue, Translucent Blurred Surface with Soft Light and Copy Space",
+    "keywords": "frosted glass, texture, abstract background, blue, translucent, blur, ice, copy space, banner, website background, wallpaper, cool, clean, design element, no people, glassmorphism, soft, modern, presentation, winter",
+    "category": 8,
+    "positive": "A sheet of frosted glass filling the frame, softly diffusing cool ice-blue and pale cyan light from behind, gentle gradients of blue glowing through the translucent matte surface with a delicate fine-grained frost texture, slightly brighter toward the upper left where the light source sits, the whole frame usable as calm cool copy space, clean modern glassmorphism mood, subtle depth, fine frost detail, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, fingerprints, drips, cracks, silhouettes, objects behind glass, people, person, low resolution"
+  },
+  {
+    "name": "champagne_satin_folds",
+    "title": "Champagne Satin Fabric Background, Soft Draped Folds in Warm Gold Beige with Elegant Copy Space",
+    "keywords": "satin, fabric texture, champagne, gold, beige, abstract background, folds, luxury background, copy space, banner, website background, wallpaper, elegant, soft, design element, no people, silk, wedding, presentation, premium",
+    "category": 8,
+    "positive": "Softly draped champagne satin fabric flowing in gentle diagonal folds across a wide frame, warm gold-beige sheen with delicate highlights along each fold and soft shadow in the valleys, the folds larger and deeper along the bottom right and smoothing out into an almost flat glowing surface at the upper left for copy space, luxurious tactile drape, warm romantic lighting, sharp focus, fine fabric weave detail, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, wrinkles harsh, stains, seams, stitching, people, person, hands, objects, low resolution"
+  },
+  {
+    "name": "sand_ripples_texture",
+    "title": "Sand Ripples Texture Background, Warm Desert Dune Waves with Soft Light and Shadow and Copy Space",
+    "keywords": "sand texture, abstract background, ripples, desert, beige, dunes, waves, copy space, banner, website background, wallpaper, natural, warm, design element, no people, minimal, organic, presentation, pattern, earth tones",
+    "category": 8,
+    "positive": "Fine wind-formed sand ripples flowing diagonally across a wide frame, warm golden-beige tones with low evening light skimming the surface so each tiny ridge casts a soft shadow, the ripple pattern strongest in the lower right and smoothing into an even calm expanse of untouched sand in the upper left as natural copy space, pristine and footprint-free, meditative organic rhythm, sharp focus, fine grain detail, premium natural texture aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, footprints, plants, rocks, shells, people, person, animals, sky, horizon, low resolution"
+  },
+  {
+    "name": "terrazzo_neutral_pattern",
+    "title": "Terrazzo Texture Background in Warm Neutrals, Speckled Stone Pattern in Beige Cream and Gray with Copy Space",
+    "keywords": "terrazzo, texture, abstract background, neutral, beige, stone, speckled, pattern, copy space, banner, website background, wallpaper, interior, natural, design element, no people, modern, minimal, presentation, surface, cream",
+    "category": 8,
+    "positive": "A flat terrazzo stone surface viewed straight on, a creamy warm ivory base scattered with smooth irregular chips of beige, soft terracotta, gray and muted white in varied small sizes, the speckles evenly distributed with a slightly sparser calm zone across the upper third that reads as gentle copy space, matte polished finish with soft even lighting, warm contemporary interior palette, sharp focus, fine mineral detail, premium texture aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, cracks, stains, grout lines, tiles, objects, people, person, low resolution"
+  },
+  {
+    "name": "blush_watercolor_wash",
+    "title": "Blush Pink Watercolor Wash Background, Soft Hand Painted Texture on White Paper with Copy Space",
+    "keywords": "watercolor background, blush pink, wash, abstract background, paint texture, soft, white, copy space, banner, website background, wallpaper, feminine, delicate, design element, no people, artistic, romantic, presentation, wedding, pastel",
+    "category": 8,
+    "positive": "A soft blush pink watercolor wash blooming across the lower portion of textured white paper, delicate pigment gradients pooling darker along organic feathered edges and fading gently upward into clean untouched white paper that fills the upper half as copy space, subtle paper grain showing through the translucent paint, one or two faint secondary blooms of pale rose, airy handmade artistic feel, soft natural light, fine detail, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, brush visible, splatter harsh, flowers, objects, people, person, dirty water stains, low resolution"
+  },
+  {
+    "name": "indigo_ink_water",
+    "title": "Indigo Ink in Water Background, Abstract Swirling Blue Clouds on White with Elegant Copy Space",
+    "keywords": "ink in water, abstract background, indigo, blue, swirl, fluid, cloud, copy space, banner, website background, wallpaper, artistic, elegant, design element, no people, flow, creative, presentation, motion, white background",
+    "category": 8,
+    "positive": "Deep indigo ink billowing through clear water against a bright white background, soft cloud-like plumes swirling and unfolding in the right half of a wide frame with delicate wisps trailing toward the center, tonal range from near-black indigo cores to translucent pale blue veils, the left half kept as luminous clean white copy space, frozen fluid motion with silky smooth gradients, sharp focus, fine detail, premium artistic commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, bubbles large, glass edges, tank walls, objects, people, person, murky brown, low resolution"
+  },
+  {
+    "name": "black_smoke_wisps",
+    "title": "Elegant White Smoke Wisps on Black Background, Delicate Curling Vapor with Dramatic Copy Space",
+    "keywords": "smoke, abstract background, black background, white smoke, wisps, vapor, elegant, copy space, banner, website background, wallpaper, mysterious, dramatic, design element, no people, curl, flow, presentation, dark, minimal",
+    "category": 8,
+    "positive": "Delicate wisps of white smoke curling upward through the right third of a deep black frame, thin silky ribbons of vapor folding into soft spirals and fading as they rise, lit softly from the side so the smoke glows silver-white against pure darkness, the left two thirds kept as clean empty black copy space, graceful frozen motion, high contrast elegance, sharp focus, fine vapor detail, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, fire, flames, incense stick, cigarette, objects, faces in smoke, people, person, low resolution"
+  },
+  {
+    "name": "iridescent_foil_texture",
+    "title": "Iridescent Holographic Foil Texture Background, Shimmering Pastel Rainbow Surface with Copy Space",
+    "keywords": "holographic, iridescent, foil texture, abstract background, rainbow, pastel, shimmer, copy space, banner, website background, wallpaper, trendy, futuristic, design element, no people, gradient, metallic, presentation, vibrant, y2k",
+    "category": 8,
+    "positive": "A sheet of iridescent holographic foil filling the frame, soft crumpled ridges catching light in shifting pastel bands of pink, mint, lilac and pale gold that melt into one another like oil on water, gentler smoother reflections across the upper left creating a calmer zone usable as copy space, dreamy metallic shimmer with fine micro-texture, contemporary playful luxury mood, sharp focus, fine detail, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, tears, tape, fingerprints, objects, people, person, harsh glare, low resolution"
+  },
+  {
+    "name": "warm_concrete_light",
+    "title": "Warm Concrete Wall Texture Background with Soft Sunlight Gradient, Minimal Neutral Surface with Copy Space",
+    "keywords": "concrete texture, wall, abstract background, neutral, warm gray, sunlight, minimal, copy space, banner, website background, wallpaper, industrial, natural light, design element, no people, surface, modern, presentation, simple, beige",
+    "category": 8,
+    "positive": "A smooth warm-gray concrete wall filling the frame, soft late-afternoon sunlight washing across it in a broad diagonal gradient from glowing warm beige at the upper left to cool neutral shadow at the lower right, subtle natural concrete texture with faint mottling and tiny pores, no cracks or marks, the large even tonal areas serving as generous copy space, quiet minimal urban mood, sharp focus, fine surface detail, premium texture aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, graffiti, cracks, stains, posters, windows, plants, people, person, low resolution"
+  },
+  {
+    "name": "kraft_paper_shadow",
+    "title": "Kraft Paper Texture Background with Soft Window Shadow, Natural Brown Eco Surface with Copy Space",
+    "keywords": "kraft paper, texture, abstract background, brown, eco, natural, recycled, copy space, banner, website background, wallpaper, sustainable, craft, design element, no people, packaging, warm, presentation, simple, organic",
+    "category": 8,
+    "positive": "A flat sheet of natural brown kraft paper filling the frame, fine recycled fiber texture visible across the warm tan surface, a soft diagonal band of window light falling across the upper right corner with a gentle blurred shadow edge, the rest of the paper evenly lit as calm usable copy space, honest tactile eco-friendly material feel, subtle tonal variation in the fibers, sharp focus, fine paper grain detail, premium natural texture aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, creases harsh, tears, tape, stamps, objects, people, person, hands, low resolution"
+  },
+  {
+    "name": "palm_leaf_shadow_beige",
+    "title": "Palm Leaf Shadow on Beige Wall Background, Soft Botanical Shadow Overlay with Warm Light and Copy Space",
+    "keywords": "leaf shadow, shadow overlay, palm leaf, beige, wall, abstract background, botanical, copy space, banner, website background, wallpaper, summer, tropical, design element, no people, natural light, minimal, presentation, warm, aesthetic",
+    "category": 8,
+    "positive": "The soft shadow of a tropical palm frond cast on a smooth warm beige wall by low golden sunlight, the shadow leaves fanning in from the right edge of a wide frame with gently blurred natural edges, the rest of the wall glowing in even warm light as clean copy space, no actual plant visible, only light and shadow on the flat surface, serene summer mood, delicate tonal gradients, sharp focus on the wall texture, fine detail, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, real plant, pot, vase, window frame, objects, people, person, hands, cracks, low resolution"
+  },
+  {
+    "name": "water_caustics_blue",
+    "title": "Sunlight Water Caustics Background, Rippling Light Pattern in Turquoise Pool Blue with Copy Space",
+    "keywords": "water texture, caustics, abstract background, turquoise, pool, ripple, sunlight, blue, copy space, banner, website background, wallpaper, summer, fresh, design element, no people, wave, clean, presentation, aqua, refreshing",
+    "category": 8,
+    "positive": "Looking down at sunlight dancing through clear turquoise pool water, bright golden-white caustic light ribbons weaving a soft organic net across the rippled aqua surface, the pattern most intense across the lower two thirds and calming into smoother open blue at the top of the wide frame for copy space, vivid clean summer palette of turquoise, cyan and white light, gentle refraction distortion, sharp focus, fine detail, premium fresh commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, pool tiles, ladder, floats, leaves, people, person, swimmers, bubbles large, low resolution"
+  },
+  {
+    "name": "green_foliage_bokeh",
+    "title": "Defocused Green Foliage Bokeh Background, Soft Natural Leaves Blur with Sunlight Sparkle and Copy Space",
+    "keywords": "green background, bokeh, foliage, nature background, leaves, spring, fresh, copy space, banner, website background, wallpaper, eco, natural, design element, no people, soft, organic, presentation, sunlight, environment",
+    "category": 8,
+    "positive": "A completely defocused wall of green foliage turned into soft abstract bokeh, layers of fresh spring greens from deep emerald to bright yellow-green melting together, small circles of sunlight sparkling through gaps in the upper right, the blur smoothest and calmest across the left half where it forms an even green wash ideal for copy, airy natural freshness, creamy smooth bokeh rendering, premium organic commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, sharp leaves, branches in focus, flowers, birds, insects, people, person, low resolution"
+  },
+  {
+    "name": "condensation_green_glass",
+    "title": "Water Drops on Green Glass Background, Fresh Condensation Texture with Cool Gradient and Copy Space",
+    "keywords": "water drops, condensation, texture, green, glass, abstract background, fresh, droplets, copy space, banner, website background, wallpaper, clean, cool, design element, no people, macro, pure, presentation, eco, natural",
+    "category": 8,
+    "positive": "Fine water droplets of condensation clinging to a smooth glass surface backlit by a fresh green gradient, hundreds of crisp round droplets in varied small sizes each catching a tiny highlight, denser across the lower right and thinning out toward the upper left where the glass clears into a smooth cool green glow as copy space, clean refreshing mood, precise macro clarity on the nearest drops, sharp focus, fine detail, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, drips running, streaks, bottle, glass edge, objects behind, people, person, fingerprints, low resolution"
+  },
+  {
+    "name": "pampas_grass_neutral",
+    "title": "Pampas Grass Plumes on Neutral Beige Background, Soft Boho Minimal Composition with Copy Space",
+    "keywords": "pampas grass, beige, neutral, abstract background, boho, minimal, natural, dried grass, copy space, banner, website background, wallpaper, soft, calm, design element, no people, aesthetic, warm, presentation, elegant, cream",
+    "category": 8,
+    "positive": "Two feathery cream pampas grass plumes leaning in from the right edge of a wide warm beige frame, their soft fluffy textures gently backlit and slightly out of focus at the tips, set against a smooth even beige studio wall that fills the remaining two thirds of the frame as clean copy space, calm bohemian neutral palette of cream, tan and sand, delicate airy mood, sharp focus on the plume centers, fine detail, premium minimal aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, vase, pot, table, many stems cluttered, flowers, people, person, hands, low resolution"
+  },
+  {
+    "name": "gold_bokeh_festive_dark",
+    "title": "Gold Bokeh Christmas Background, Warm Glittering Lights on Dark Brown with Festive Copy Space",
+    "keywords": "christmas background, gold bokeh, festive, holiday background, glitter, lights, celebration, copy space, banner, website background, wallpaper, luxury, new year, design element, no people, warm, sparkle, dark, presentation, elegant",
+    "category": 8,
+    "positive": "Warm golden bokeh lights glowing softly against a deep brown-black background, dozens of defocused circles of amber and gold light in varied sizes drifting across the right half of a wide frame with a few fine glitter sparkles between them, the left half fading into rich dark empty space for festive copy, cozy luxurious holiday atmosphere, creamy smooth bokeh, deep warm contrast, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, christmas tree, ornaments, gifts, candles, santa, snowflake shapes, people, person, low resolution"
+  },
+  {
+    "name": "silver_blue_winter_bokeh",
+    "title": "Silver Blue Winter Bokeh Background, Cool Sparkling Lights with Frost Glow and Copy Space",
+    "keywords": "winter background, bokeh, silver, blue, sparkle, holiday background, frost, cold, copy space, banner, website background, wallpaper, christmas background, elegant, design element, no people, glitter, festive, presentation, ice",
+    "category": 8,
+    "positive": "Cool silver and ice-blue bokeh lights shimmering against a deep midnight blue background, soft defocused circles of white and pale blue light scattered across the lower right with delicate fine sparkles like frost crystals catching light, a gentle cold glow rising from the bottom edge, the upper left kept as smooth dark blue empty space for copy, elegant wintry atmosphere, creamy bokeh with crisp sparkle accents, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, snowflake shapes drawn, christmas tree, ornaments, window, people, person, low resolution"
+  },
+  {
+    "name": "autumn_bokeh_warm",
+    "title": "Autumn Bokeh Background in Warm Orange and Gold, Defocused Fall Colors with Soft Light and Copy Space",
+    "keywords": "autumn background, fall, bokeh, orange, gold, warm, seasonal, nature background, copy space, banner, website background, wallpaper, cozy, october, design element, no people, soft, harvest, presentation, amber",
+    "category": 8,
+    "positive": "A fully defocused autumn scene turned into pure abstract bokeh, warm circles of orange, amber, russet and golden light melting together like sunlit fall foliage, brightest sparkle clustered in the upper right where sun breaks through, the lower left settling into a smooth deep warm brown wash ideal for copy, rich cozy seasonal palette, creamy smooth blur with no sharp shapes, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, sharp leaves, branches, pumpkins, trees in focus, people, person, animals, low resolution"
+  },
+  {
+    "name": "string_lights_defocused",
+    "title": "Defocused String Lights Background, Warm Hanging Fairy Light Bokeh on Dark Blue Evening with Copy Space",
+    "keywords": "string lights, fairy lights, bokeh, warm white, evening, abstract background, celebration, party background, copy space, banner, website background, wallpaper, cozy, festive, design element, no people, romantic, night, presentation, glow",
+    "category": 8,
+    "positive": "Strands of warm white string lights hanging in gentle curves, completely defocused into rows of soft glowing bokeh orbs against a deep blue evening backdrop, the luminous swags draping across the upper right of a wide frame, lower left dissolving into smooth dark twilight blue as copy space, cozy celebratory outdoor-evening atmosphere, warm and cool color contrast, creamy round bokeh, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, visible bulbs sharp, wires in focus, poles, buildings, trees, people, person, low resolution"
+  },
+  {
+    "name": "black_gold_glitter_luxury",
+    "title": "Black and Gold Glitter Background, Luxury Sparkle Gradient Sweeping Across Dark with Copy Space",
+    "keywords": "glitter background, gold, black, luxury background, sparkle, glamour, elegant, celebration, copy space, banner, website background, wallpaper, new year, premium, design element, no people, shimmer, dark, presentation, party",
+    "category": 8,
+    "positive": "A diagonal sweep of fine gold glitter glowing across a deep matte black background, dense sparkling shimmer along the bottom edge thinning into scattered drifting flecks toward the center, the upper half kept as rich empty black space for luxury copy, tiny points of light in warm gold with a few soft defocused sparkle orbs, opulent celebratory mood, deep velvety contrast, sharp focus on the nearest glitter, fine detail, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, confetti shapes, stars drawn, ribbons, champagne, objects, people, person, low resolution"
+  },
+  {
+    "name": "soft_snow_blue_gradient",
+    "title": "Soft Falling Snow Background on Blue Gradient, Gentle Winter Blur with Calm Copy Space",
+    "keywords": "snow background, winter background, blue, falling snow, soft, cold, seasonal, holiday background, copy space, banner, website background, wallpaper, calm, christmas background, design element, no people, gentle, frost, presentation, december",
+    "category": 8,
+    "positive": "Soft snowflakes falling gently through a smooth blue winter gradient, the background flowing from pale icy blue at the top into deeper calm indigo at the bottom of the wide frame, snowflakes rendered as simple soft white orbs in varied sizes with the nearest ones pleasantly defocused, sparser flakes across the center left leaving a serene open area for copy, quiet peaceful winter atmosphere, smooth clean gradients, premium commercial aesthetic, no text, no watermark, no logos, no branding",
+    "negative": "text, letters, words, title, caption, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, snowflake crystal shapes drawn, trees, houses, ground, horizon, people, person, birds, low resolution"
+  }
 ]
