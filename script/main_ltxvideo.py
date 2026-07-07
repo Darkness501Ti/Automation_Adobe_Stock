@@ -9,6 +9,8 @@ import shutil
 import subprocess
 from datetime import datetime
 
+from loop_utils import add_loop_guides, parse_ssim, strip_loop_keywords
+
 # =============================================================
 # LTX-2.3 VIDEO CONFIG  (tune here, no need to touch the code below)
 # Spec: docs/superpowers/specs/2026-07-06-ltx-video-pipeline-design.md
@@ -48,6 +50,16 @@ STAGE2_SIGMAS = "0.85, 0.7250, 0.4219, 0.0"
 CFG           = 1.0                          # distilled LoRA -> cfg 1 (see warning above)
 SAMPLER_NAME  = "euler"
 STAGE2_SEED   = 42                           # fixed refine noise (template default)
+
+# Seamless-loop mode ("loop": true in prompt_video.json)
+# Spec: docs/superpowers/specs/2026-07-07-ltx-seamless-loop-design.md
+# Pass 1 harvests an anchor frame (short cheap render), pass 2 pins it at
+# frame 0 and frame FRAMES-1 (LTXVAddGuide), ffmpeg trims the duplicated
+# last frame -> exactly LOOP_FRAMES frames that wrap seamlessly.
+ANCHOR_FRAMES   = 33     # pass-1 length, LTX rule 8n+1 (~1/7 of full render)
+GUIDE_STRENGTH  = 1.0    # anchor conditioning strength at both endpoints
+LOOP_FRAMES     = FPS * DURATION_S   # 240 -> exact 10.000s after trim
+SSIM_THRESHOLD  = 0.95   # seam gate: below this, loop keywords are stripped
 
 # ffmpeg encode (Adobe: H.264, 5-60s, >=1920x1080, <=3.9GB)
 FF_CRF        = 17
@@ -216,13 +228,61 @@ def download_video(outputs, dest_path):
         f.write(raw_bytes)
     return True
 
-# 7. ffmpeg re-encode: crop to spec, H.264 yuv420p, strip audio, faststart
-def encode_clip(raw_path, final_path):
-    cmd = [FFMPEG, "-y", "-i", raw_path,
-           "-vf", f"crop={OUT_WIDTH}:{OUT_HEIGHT}",
-           "-c:v", "libx264", "-crf", str(FF_CRF), "-preset", FF_PRESET,
-           "-pix_fmt", "yuv420p", "-an", "-movflags", "+faststart",
-           final_path]
+
+# 6d. Upload an image to ComfyUI's input folder (multipart, stdlib only).
+def upload_image(path):
+    boundary = "----ltxloop" + str(random.randint(0, 10**12))
+    filename = os.path.basename(path)
+    with open(path, "rb") as f:
+        filedata = f.read()
+    body = (
+        f"--{boundary}\r\n"
+        f'Content-Disposition: form-data; name="image"; filename="{filename}"\r\n'
+        f"Content-Type: image/png\r\n\r\n"
+    ).encode("utf-8") + filedata + f"\r\n--{boundary}--\r\n".encode("utf-8")
+    req = urllib.request.Request(
+        f"{COMFY_URL}/upload/image", data=body,
+        headers={"Content-Type": f"multipart/form-data; boundary={boundary}"})
+    with urllib.request.urlopen(req) as response:
+        return json.loads(response.read())["name"]
+
+
+# 6e. Extract a single frame as PNG (comma in select= escaped for the filtergraph).
+def extract_frame(video_path, png_path, frame_idx):
+    cmd = [FFMPEG, "-y", "-i", video_path,
+           "-vf", f"select=eq(n\\,{frame_idx})", "-frames:v", "1", png_path]
+    res = subprocess.run(cmd, capture_output=True, text=True)
+    if res.returncode != 0 or not os.path.exists(png_path):
+        raise RuntimeError(f"frame extract failed: {res.stderr[-300:]}")
+
+
+# 6f. Seam gate: SSIM between first frame and last frame of the final clip.
+def seam_ssim(video_path, last_idx):
+    first_png = video_path + ".first.png"
+    last_png = video_path + ".last.png"
+    try:
+        extract_frame(video_path, first_png, 0)
+        extract_frame(video_path, last_png, last_idx)
+        cmd = [FFMPEG, "-i", first_png, "-i", last_png,
+               "-filter_complex", "ssim", "-f", "null", "-"]
+        res = subprocess.run(cmd, capture_output=True, text=True)
+        return parse_ssim(res.stderr)
+    finally:
+        for p in (first_png, last_png):
+            if os.path.exists(p):
+                os.remove(p)
+
+# 7. ffmpeg re-encode: crop to spec, H.264 yuv420p, strip audio, faststart.
+#    frames_limit trims loop clips to exactly LOOP_FRAMES (drops the duplicated
+#    final frame so playback wraps seamlessly).
+def encode_clip(raw_path, final_path, frames_limit=None):
+    cmd = [FFMPEG, "-y", "-i", raw_path]
+    if frames_limit:
+        cmd += ["-frames:v", str(frames_limit)]
+    cmd += ["-vf", f"crop={OUT_WIDTH}:{OUT_HEIGHT}",
+            "-c:v", "libx264", "-crf", str(FF_CRF), "-preset", FF_PRESET,
+            "-pix_fmt", "yuv420p", "-an", "-movflags", "+faststart",
+            final_path]
     res = subprocess.run(cmd, capture_output=True, text=True)
     if res.returncode != 0:
         raise RuntimeError(f"ffmpeg failed: {res.stderr[-500:]}")
@@ -268,7 +328,38 @@ def main():
         print(f"[{idx}/{len(prompts)}] {item['name']}: queueing...")
         t0 = time.time()
 
-        outputs = generate_and_wait(build_workflow(item["positive"], item["negative"]), "t2v")
+        is_loop = bool(item.get("loop"))
+        if is_loop:
+            # Pass 1: short render, harvest frame 0 as the anchor image.
+            print(" -> loop mode: anchor harvest pass...")
+            outputs = generate_and_wait(
+                build_workflow(item["positive"], item["negative"], frames=ANCHOR_FRAMES),
+                "anchor pass")
+            if not outputs:
+                continue
+            anchor_mp4 = os.path.join(output_dir, f"anchor_{idx}.mp4")
+            anchor_png = os.path.join(output_dir, f"anchor_{idx}.png")
+            if not download_video(outputs, anchor_mp4):
+                continue
+            try:
+                extract_frame(anchor_mp4, anchor_png, 0)
+                anchor_name = upload_image(anchor_png)
+            except (RuntimeError, urllib.error.URLError) as e:
+                print(f" -> anchor prep failed: {e}")
+                continue
+            finally:
+                for p in (anchor_mp4, anchor_png):
+                    if os.path.exists(p):
+                        os.remove(p)
+            # Pass 2: full render with the anchor pinned at both endpoints.
+            print(" -> loop mode: guided loop pass...")
+            wf = add_loop_guides(
+                build_workflow(item["positive"], item["negative"]),
+                anchor_name, FRAMES, GUIDE_STRENGTH)
+            outputs = generate_and_wait(wf, "loop pass")
+        else:
+            outputs = generate_and_wait(
+                build_workflow(item["positive"], item["negative"]), "t2v")
         if not outputs:
             continue
 
@@ -280,7 +371,7 @@ def main():
         final_filename = f"{today_str}_Run{run_num}_Video{idx}.mp4"
         final_path = os.path.join(output_dir, final_filename)
         try:
-            encode_clip(raw_path, final_path)
+            encode_clip(raw_path, final_path, frames_limit=LOOP_FRAMES if is_loop else None)
         except RuntimeError as e:
             print(f" -> {e}")
             continue
@@ -293,11 +384,26 @@ def main():
             print(f" -> QUARANTINED ({detail})")
             continue
 
+        keywords = item["keywords"]
+        if is_loop:
+            # Seam gate: keep loop keywords only if the wrap is actually clean.
+            try:
+                ssim = seam_ssim(final_path, LOOP_FRAMES - 1)
+            except (RuntimeError, ValueError) as e:
+                ssim = 0.0
+                print(f" -> seam gate could not run ({e}), treating as FAIL")
+            if ssim >= SSIM_THRESHOLD:
+                print(f" -> seam gate PASS (SSIM {ssim:.4f}) - loop keywords kept")
+            else:
+                keywords = strip_loop_keywords(keywords)
+                print(f" -> seam gate FAIL (SSIM {ssim:.4f} < {SSIM_THRESHOLD}) "
+                      f"- loop keywords stripped, review clip manually")
+
         print(f" -> Saved: {final_filename} ({detail}, gen {gen_min:.1f} min)")
         csv_data.append({
             "Filename": final_filename,
             "Title": item["title"][:200],
-            "Keywords": item["keywords"],
+            "Keywords": keywords,
             "Category": item["category"],
             "Releases": ""
         })
