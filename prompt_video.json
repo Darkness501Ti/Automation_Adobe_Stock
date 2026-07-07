@@ -1,10 +1,91 @@
 [
   {
-    "name": "teal_wave_ribbons_loop",
-    "title": "Abstract teal light waves seamless loop motion background, glowing ribbons and particles gently undulating over dark navy backdrop with empty space",
-    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, technology, teal, glowing, wave, particles, futuristic, digital, energy, flowing, dark background, cyan, presentation, website header, screensaver",
+    "name": "rose_silk_waves_loop",
+    "title": "Pink silk waves seamless loop motion background, elegant rose fabric rippling with pearl highlights over soft white backdrop",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, pink, silk, white, wave, elegant, fashion, beauty, luxury, soft, satin, feminine, glamour, presentation, website header",
     "category": 8,
-    "positive": "Abstract motion background. Broad luminous ribbons of teal and cyan light sweep in large continuous waves against a deep dark navy void, swelling and receding like a glowing ocean breathing, rising high and sinking low in a strong rhythmic pulse that never stops and never travels in one direction. Bright glowing particles swirl around the ribbons in wide circular orbits, flaring and dimming as they move. The waves ripple energetically across the upper frame at all times, constantly changing shape. The lower third of the frame remains a smooth featureless dark navy gradient, completely plain and empty. Static locked-off camera, vivid perpetual motion, soft cinematic glow, elegant premium technology aesthetic.",
+    "positive": "Abstract motion background. Broad folds of glossy rose-pink silk fabric ripple and billow in place, swelling and receding like a breathing surface, catching pearl-white highlights that glide across the folds as they rise high and sink low in a strong continuous rhythm that never stops. The lower third of the frame remains a smooth featureless soft white gradient, completely plain and empty. Static locked-off camera, vivid perpetual motion, soft diffused studio glow, elegant premium beauty aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "blush_particle_orbits_loop",
+    "title": "Pink glitter particles seamless loop motion background, blush sparkles orbiting on white backdrop for beauty and cosmetics",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, pink, particles, sparkle, white, glitter, beauty, cosmetics, glamour, feminine, pastel, glow, celebration, wedding",
+    "category": 8,
+    "positive": "Abstract motion background. Hundreds of glowing blush-pink and warm white light particles swirl in wide circular orbits against a creamy white void, each particle flaring and dimming as it loops, the whole cloud swelling and contracting like a slow heartbeat in constant vivid motion. The left half of the frame remains a smooth featureless pale white gradient, completely plain and empty. Static locked-off camera, perpetual sparkling movement, soft dreamy glow, premium cosmetic aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "pink_ink_bloom_loop",
+    "title": "Pink ink clouds seamless loop motion background, fluid magenta swirls blooming on white backdrop for spa and wellness design",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, pink, ink, fluid, white, magenta, swirl, spa, wellness, organic, watercolor, soft, feminine, beauty, presentation",
+    "category": 8,
+    "positive": "Abstract motion background. Clouds of magenta and rose-pink ink bloom and billow underwater against bright white, curling into soft rolling plumes that swell outward and fold back into themselves in an endless breathing cycle, wisps constantly churning and reshaping with vivid fluid energy. The right third of the frame remains a smooth featureless bright white expanse, completely plain and empty. Static locked-off camera, continuous organic motion, soft diffused light, premium spa aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "pearl_bokeh_pulse_loop",
+    "title": "Pink bokeh lights seamless loop motion background, romantic glowing circles pulsing on blush white backdrop",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, bokeh, pink, lights, white, romantic, valentines day, wedding, glow, celebration, love, soft, dreamy, feminine, party",
+    "category": 8,
+    "positive": "Abstract motion background. Large soft circles of pink and pearl-white bokeh light drift in small slow circles and pulse rhythmically brighter and dimmer against a blush gradient, layers of glowing orbs overlapping and breathing in constant clearly visible motion, small sparkles twinkling between them without pause. The lower third of the frame remains a smooth featureless blush-white gradient, completely plain and empty. Static locked-off camera, perpetual shimmering motion, dreamy romantic glow, premium festive aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "magenta_smoke_swirl_loop",
+    "title": "Pink smoke swirls seamless loop motion background, elegant rose mist curling on white backdrop with empty space",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, smoke, pink, white, mist, swirl, elegant, soft, flowing, feminine, beauty, luxury, perfume, presentation",
+    "category": 8,
+    "positive": "Abstract motion background. Delicate wisps of pink and ivory smoke curl and swirl around each other in place against a pale white void, coiling upward and folding back down in continuous spiral eddies, strands endlessly twisting, stretching and reforming with lively fluid motion that never settles. The left third of the frame remains a smooth featureless ivory gradient, completely plain and empty. Static locked-off camera, constant swirling movement, soft diffused glow, elegant premium aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "pink_liquid_marble_loop",
+    "title": "Pink liquid marble seamless loop motion background, creamy rose and white paint swirling for beauty and cosmetic design",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, liquid, marble, pink, white, paint, cream, swirl, cosmetics, beauty, luxury, texture, feminine, elegant, spa",
+    "category": 8,
+    "positive": "Abstract motion background. A glossy liquid marble surface of rose-pink and milky white paint slowly churns, veins of magenta and cream folding into each other, swelling and rippling like thick cream stirred in an endless circle, the marbled pattern constantly reshaping with rich fluid motion. The upper third of the frame remains a smooth featureless milky white expanse, completely plain and empty. Static locked-off camera, continuous organic churning, soft even light, premium cosmetic aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "petal_hover_waltz_loop",
+    "title": "Pink rose petals seamless loop motion background, floating petals dancing on white backdrop for wedding and romantic design",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, rose petals, pink, white, floating, wedding, romantic, valentines day, love, feminine, spring, beauty, celebration, elegant",
+    "category": 8,
+    "positive": "Abstract motion background. Dozens of soft pink rose petals hover weightlessly against a bright white void, each petal spinning slowly in place and drifting in small graceful circles, rising and dipping in a continuous floating dance, catching soft light as they tumble without ever leaving the frame. The lower third of the frame remains a smooth featureless bright white gradient, completely plain and empty. Static locked-off camera, perpetual floating motion, soft romantic light, premium wedding aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "white_satin_rose_glow_loop",
+    "title": "White satin waves seamless loop motion background, pearl fabric rippling under pink glow for fashion and luxury design",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, satin, white, pink, fabric, silk, wave, luxury, fashion, elegant, soft, glow, feminine, glamour, presentation",
+    "category": 8,
+    "positive": "Abstract motion background. A flowing surface of pearl-white satin ripples in place under a warm rose-pink glow, waves of fabric rising and falling in a strong steady rhythm, the pink light itself breathing brighter and softer across the folds so the whole scene shimmers with constant layered motion. The right half of the frame remains a smooth featureless pale pink gradient, completely plain and empty. Static locked-off camera, vivid continuous rippling, soft luxurious sheen, premium fashion aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "pink_aurora_veils_loop",
+    "title": "Pink aurora light waves seamless loop motion background, glowing veils swaying on pastel backdrop with empty space",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, aurora, pink, light, white, pastel, waves, glow, dreamy, magenta, soft, modern, feminine, website header",
+    "category": 8,
+    "positive": "Abstract motion background. Tall translucent curtains of pink, magenta and white light wave like an aurora against a soft pastel void, veils undulating side to side in place, folding and unfolding in a powerful continuous rhythm, edges glowing and dimming as the curtains sway without pause and without traveling in any direction. The lower third of the frame remains a smooth featureless pastel pink gradient, completely plain and empty. Static locked-off camera, vivid perpetual waving motion, dreamy luminous glow, premium modern aesthetic.",
+    "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
+    "loop": true
+  },
+  {
+    "name": "rose_crystal_shimmer_loop",
+    "title": "Pink crystals seamless loop motion background, rose quartz shapes sparkling and rotating on white backdrop",
+    "keywords": "motion background, abstract background, seamless loop, looping, animation, video background, backdrop, crystal, pink, rose quartz, white, sparkle, gemstone, luxury, jewelry, elegant, shine, feminine, glamour, 3d",
+    "category": 8,
+    "positive": "Abstract motion background. A field of faceted rose-quartz crystal shapes slowly rotates in place against a milky white void, each crystal turning on its own axis, facets flashing pink and white light in a constant rhythmic sparkle, refractions sweeping across their surfaces as they spin in endless smooth cycles. The left half of the frame remains a smooth featureless milky white gradient, completely plain and empty. Static locked-off camera, continuous glittering rotation, soft bright light, premium jewelry aesthetic.",
     "negative": "text, letters, words, title, caption, subtitles, watermark, signature, logo, brand logo, trademark, chinese characters, japanese characters, writing, typography, ui, label, gibberish, people, face, hands, cartoon, low quality, blurry, noisy, flicker, strobe, camera shake, jump cut, transition, still frame, frozen frame, pc game, video game, childish, ugly",
     "loop": true
   }
