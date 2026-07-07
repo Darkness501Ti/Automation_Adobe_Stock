@@ -56,24 +56,23 @@ CLIP_TIMEOUT_S = 30 * 60                     # abort a clip stuck longer than th
 ADOBE_FPS_SET = {23.98, 24.0, 25.0, 29.97, 30.0, 50.0, 59.94, 60.0}
 # =============================================================
 
-# 1. Setup Directories
+# 1. Paths (directories are created in main(), not at import time)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROMPT_FILE = os.path.join(BASE_DIR, "prompt_video.json")
 OUTPUT_BASE = os.path.join(BASE_DIR, "output")
 
-if not os.path.exists(OUTPUT_BASE):
-    os.makedirs(OUTPUT_BASE)
 
-# 2. Generate Output Folder (ddmmyyyy_RunX_video)
-today_str = datetime.now().strftime("%d%m%Y")
-run_num = 1
-while True:
-    OUTPUT_DIR = os.path.join(OUTPUT_BASE, f"{today_str}_Run{run_num}_video")
-    if not os.path.exists(OUTPUT_DIR):
-        os.makedirs(OUTPUT_DIR)
-        break
-    run_num += 1
-QUARANTINE_DIR = os.path.join(OUTPUT_DIR, "quarantine")
+# 2. Output folder (ddmmyyyy_RunX_video)
+def create_run_dir():
+    os.makedirs(OUTPUT_BASE, exist_ok=True)
+    today_str = datetime.now().strftime("%d%m%Y")
+    run_num = 1
+    while True:
+        out_dir = os.path.join(OUTPUT_BASE, f"{today_str}_Run{run_num}_video")
+        if not os.path.exists(out_dir):
+            os.makedirs(out_dir)
+            return out_dir, today_str, run_num
+        run_num += 1
 
 # 3. Locate ffmpeg / ffprobe (PATH first, then WinGet links)
 def find_tool(name):
@@ -114,7 +113,7 @@ def get_file(filename, subfolder, folder_type):
 # Mirrors official template video_ltx2_3_t2v.json with the inert I2V branch removed
 # (its LTXVImgToVideoInplace nodes run bypass=true in T2V) and the prompt enhancer skipped.
 # Audio latents are integral to the AV model, but we never decode audio (clips ship silent).
-def build_workflow(positive, negative):
+def build_workflow(positive, negative, frames=FRAMES):
     seed = random.randint(1, 1000000000000)
     return {
         # Shared loaders (cached by ComfyUI across queues)
@@ -132,9 +131,9 @@ def build_workflow(positive, negative):
             "positive": ["10", 0], "negative": ["11", 0], "frame_rate": float(FPS)}},
         # Stage 1: half-res AV generation
         "20": {"class_type": "EmptyLTXVLatentVideo", "inputs": {
-            "width": GEN_WIDTH // 2, "height": GEN_HEIGHT // 2, "length": FRAMES, "batch_size": 1}},
+            "width": GEN_WIDTH // 2, "height": GEN_HEIGHT // 2, "length": frames, "batch_size": 1}},
         "21": {"class_type": "LTXVEmptyLatentAudio", "inputs": {
-            "frames_number": FRAMES, "frame_rate": FPS, "batch_size": 1, "audio_vae": ["4", 0]}},
+            "frames_number": frames, "frame_rate": FPS, "batch_size": 1, "audio_vae": ["4", 0]}},
         "22": {"class_type": "LTXVConcatAVLatent", "inputs": {
             "video_latent": ["20", 0], "audio_latent": ["21", 0]}},
         "23": {"class_type": "CFGGuider", "inputs": {
@@ -179,6 +178,44 @@ def find_video_output(outputs):
                     return f
     return None
 
+
+# 6b. Queue a workflow and poll until finished. Returns outputs dict or None.
+def generate_and_wait(workflow, label):
+    t0 = time.time()
+    try:
+        res = queue_prompt(workflow)
+        prompt_id = res["prompt_id"]
+    except urllib.error.HTTPError as e:
+        print(f" -> ComfyUI rejected workflow ({label}): {e.read().decode()[:500]}")
+        return None
+    while True:
+        if time.time() - t0 > CLIP_TIMEOUT_S:
+            print(f" -> TIMEOUT after {CLIP_TIMEOUT_S/60:.0f} min ({label})")
+            return None
+        history = get_history(prompt_id)
+        if prompt_id in history:
+            entry = history[prompt_id]
+            status = entry.get("status", {})
+            if status.get("status_str") == "error":
+                msgs = [m for m in status.get("messages", []) if m[0] == "execution_error"]
+                print(f" -> ComfyUI execution error ({label}): {json.dumps(msgs)[:500]}")
+                return None
+            if entry.get("outputs"):
+                return entry["outputs"]
+        time.sleep(5)
+
+
+# 6c. Pull the rendered video out of ComfyUI into dest_path.
+def download_video(outputs, dest_path):
+    vid = find_video_output(outputs)
+    if not vid:
+        print(f" -> No video file in ComfyUI outputs: {list(outputs.keys())}")
+        return False
+    raw_bytes = get_file(vid["filename"], vid.get("subfolder", ""), vid.get("type", "output"))
+    with open(dest_path, "wb") as f:
+        f.write(raw_bytes)
+    return True
+
 # 7. ffmpeg re-encode: crop to spec, H.264 yuv420p, strip audio, faststart
 def encode_clip(raw_path, final_path):
     cmd = [FFMPEG, "-y", "-i", raw_path,
@@ -217,7 +254,9 @@ def probe_gate(path):
 
 def main():
     print("Starting LTX-2.3 video batch generation...")
-    print(f"Output folder created: {OUTPUT_DIR}")
+    output_dir, today_str, run_num = create_run_dir()
+    quarantine_dir = os.path.join(output_dir, "quarantine")
+    print(f"Output folder created: {output_dir}")
     print(f"Config: {GEN_WIDTH}x{GEN_HEIGHT} -> crop {OUT_WIDTH}x{OUT_HEIGHT}, {FPS}fps, {DURATION_S}s ({FRAMES} frames)\n")
 
     with open(PROMPT_FILE, "r", encoding="utf-8") as f:
@@ -228,47 +267,18 @@ def main():
         idx = i + 1
         print(f"[{idx}/{len(prompts)}] {item['name']}: queueing...")
         t0 = time.time()
-        try:
-            res = queue_prompt(build_workflow(item["positive"], item["negative"]))
-            prompt_id = res["prompt_id"]
-        except urllib.error.HTTPError as e:
-            print(f" -> ComfyUI rejected workflow: {e.read().decode()[:500]}")
-            continue
 
-        # Poll until this clip finishes (or times out)
-        outputs = None
-        while True:
-            if time.time() - t0 > CLIP_TIMEOUT_S:
-                print(f" -> TIMEOUT after {CLIP_TIMEOUT_S/60:.0f} min, skipping clip")
-                break
-            history = get_history(prompt_id)
-            if prompt_id in history:
-                entry = history[prompt_id]
-                status = entry.get("status", {})
-                if status.get("status_str") == "error":
-                    msgs = [m for m in status.get("messages", []) if m[0] == "execution_error"]
-                    print(f" -> ComfyUI execution error: {json.dumps(msgs)[:500]}")
-                    break
-                if entry.get("outputs"):
-                    outputs = entry["outputs"]
-                    break
-            time.sleep(5)
+        outputs = generate_and_wait(build_workflow(item["positive"], item["negative"]), "t2v")
         if not outputs:
             continue
 
         gen_min = (time.time() - t0) / 60
-        vid = find_video_output(outputs)
-        if not vid:
-            print(f" -> No video file in ComfyUI outputs: {list(outputs.keys())}")
+        raw_path = os.path.join(output_dir, f"raw_{idx}.mp4")
+        if not download_video(outputs, raw_path):
             continue
 
-        raw_bytes = get_file(vid["filename"], vid.get("subfolder", ""), vid.get("type", "output"))
-        raw_path = os.path.join(OUTPUT_DIR, f"raw_{idx}.mp4")
-        with open(raw_path, "wb") as f:
-            f.write(raw_bytes)
-
         final_filename = f"{today_str}_Run{run_num}_Video{idx}.mp4"
-        final_path = os.path.join(OUTPUT_DIR, final_filename)
+        final_path = os.path.join(output_dir, final_filename)
         try:
             encode_clip(raw_path, final_path)
         except RuntimeError as e:
@@ -278,8 +288,8 @@ def main():
 
         ok, detail = probe_gate(final_path)
         if not ok:
-            os.makedirs(QUARANTINE_DIR, exist_ok=True)
-            shutil.move(final_path, os.path.join(QUARANTINE_DIR, final_filename))
+            os.makedirs(quarantine_dir, exist_ok=True)
+            shutil.move(final_path, os.path.join(quarantine_dir, final_filename))
             print(f" -> QUARANTINED ({detail})")
             continue
 
@@ -293,14 +303,14 @@ def main():
         })
 
     # 9. Write the Adobe Stock CSV Format
-    csv_path = os.path.join(OUTPUT_DIR, "AdobeStock_Metadata.csv")
+    csv_path = os.path.join(output_dir, "AdobeStock_Metadata.csv")
     with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
         writer = csv.DictWriter(f, fieldnames=["Filename", "Title", "Keywords", "Category", "Releases"])
         writer.writeheader()
         writer.writerows(csv_data)
 
     print(f"\nBatch complete! {len(csv_data)}/{len(prompts)} clips passed the spec gate.")
-    print(f"CSV and videos saved to {OUTPUT_DIR}")
+    print(f"CSV and videos saved to {output_dir}")
 
 if __name__ == '__main__':
     main()
